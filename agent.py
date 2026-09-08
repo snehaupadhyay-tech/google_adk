@@ -1,6 +1,7 @@
 from google.adk.agents.llm_agent import Agent
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, sum
+import pandas as pd
  
 spark = SparkSession.builder\
 .master("local[*]")\
@@ -71,8 +72,7 @@ df = spark.createDataFrame(
  
 def region_sales_summary():
   result = (
-    df.filter(col("Product")=='Laptop')
-    .groupby("Region")
+     .groupby("Region")
     .agg(sum('Sales').alias('TotalSales'))
     .orderBy(col('TotalSales').desc())
     .toPandas()

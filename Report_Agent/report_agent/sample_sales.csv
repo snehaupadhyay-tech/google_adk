@@ -1,0 +1,72 @@
+Month,Region,Product,Units,Revenue,Cost
+Jan,North,Analytics Audit,12,14400,9600
+Jan,South,Tag Review,9,9000,5400
+Jan,West,Journey Audit,8,12800,8000
+Jan,East,CRO Audit,10,13000,7800
+Jan,Central,GA4 Implementation,7,11900,7000
+
+Feb,North,Tag Review,11,11000,6600
+Feb,South,Analytics Audit,13,15600,9600
+Feb,West,CRO Audit,6,7800,4600
+Feb,East,Journey Audit,12,18000,10800
+Feb,Central,GA4 Implementation,8,12800,7600
+
+Mar,North,Analytics Audit,14,16800,11200
+Mar,South,Tag Review,10,10000,6500
+Mar,West,Journey Audit,11,17600,10500
+Mar,East,CRO Audit,9,11700,6800
+Mar,Central,GA4 Implementation,12,19200,11500
+
+Apr,North,Journey Audit,7,11200,7000
+Apr,South,Tag Review,13,13000,7800
+Apr,West,Analytics Audit,15,18000,12000
+Apr,East,CRO Audit,10,13000,7800
+Apr,Central,GA4 Implementation,11,17600,10400
+
+May,North,Tag Review,10,10000,6000
+May,South,Journey Audit,9,14400,9000
+May,West,Analytics Audit,15,18000,12000
+May,East,CRO Audit,11,14300,8500
+May,Central,GA4 Implementation,12,19200,11500
+
+Jun,North,Analytics Audit,16,19200,12800
+Jun,South,Tag Review,8,8000,5000
+Jun,West,Journey Audit,14,22400,13200
+Jun,East,CRO Audit,9,11700,6900
+Jun,Central,GA4 Implementation,13,20800,12600
+
+Jul,North,Journey Audit,11,17600,10400
+Jul,South,Analytics Audit,14,16800,11200
+Jul,West,Tag Review,12,12000,7200
+Jul,East,CRO Audit,10,13000,7800
+Jul,Central,GA4 Implementation,15,24000,14400
+
+Aug,North,Analytics Audit,13,15600,10400
+Aug,South,Journey Audit,12,19200,11600
+Aug,West,Tag Review,11,11000,6600
+Aug,East,CRO Audit,8,10400,6200
+Aug,Central,GA4 Implementation,14,22400,13400
+
+Sep,North,CRO Audit,10,13000,7800
+Sep,South,Analytics Audit,15,18000,12000
+Sep,West,Journey Audit,13,20800,12400
+Sep,East,Tag Review,11,11000,6600
+Sep,Central,GA4 Implementation,12,19200,11500
+
+Oct,North,Analytics Audit,14,16800,11200
+Oct,South,Journey Audit,10,16000,9600
+Oct,West,Tag Review,8,8000,5000
+Oct,East,CRO Audit,12,15600,9300
+Oct,Central,GA4 Implementation,15,24000,14400
+
+Nov,North,Journey Audit,9,14400,8500
+Nov,South,Analytics Audit,13,15600,10400
+Nov,West,CRO Audit,11,14300,8500
+Nov,East,Tag Review,10,10000,6000
+Nov,Central,GA4 Implementation,14,22400,13400
+
+Dec,North,Analytics Audit,16,19200,12800
+Dec,South,Journey Audit,12,19200,11600
+Dec,West,Tag Review,11,11000,6600
+Dec,East,CRO Audit,13,16900,10000
+Dec,Central,GA4 Implementation,15,24000,14400

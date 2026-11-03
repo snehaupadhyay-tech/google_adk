@@ -1,0 +1,17 @@
+# Martech Tag Audit Agent — Dependencies
+# Install all:  pip install -r requirements.txt
+
+# Core (required)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+rich>=13.7.0
+
+# AI Analysis (optional but recommended)
+anthropic>=0.25.0
+
+# Deep browser audit — captures dynamic tags, network requests, SPAs (optional)
+playwright>=1.44.0
+# After install run: playwright install chromium
+
+# Useful extras
+lxml>=5.2.0         # Faster HTML parsing for BeautifulSoup

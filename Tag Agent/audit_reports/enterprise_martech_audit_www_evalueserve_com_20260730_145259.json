@@ -1,0 +1,1327 @@
+{
+  "site_url": "https://www.evalueserve.com",
+  "generated_at": "2026-07-30T14:52:59",
+  "website_type": "B2C / Ecommerce",
+  "pages_audited": 10,
+  "overall_score": 33,
+  "score_breakdown": {
+    "Website Type": "B2C / Ecommerce",
+    "Platform Coverage": 100,
+    "Tag Manager Coverage": 100,
+    "Consent Coverage": 80,
+    "DataLayer Coverage": 80,
+    "Journey Hit Rate": 50,
+    "Critical Issues": 2,
+    "High Issues": 20,
+    "Medium Issues": 6,
+    "Issue Penalty": 45,
+    "Overall Score": 33
+  },
+  "recommendations": [
+    {
+      "Priority": "Critical",
+      "Area": "Consent",
+      "Finding": "CMP missing on 2 audited pages",
+      "Recommendation": "Implement CMP and prevent analytics or advertising tags from firing before consent where required."
+    },
+    {
+      "Priority": "Medium",
+      "Area": "Navigation Tracking",
+      "Finding": "Navigation or CTA tracking gaps found on 6 pages",
+      "Recommendation": "Implement cta_click, nav_click, header_click and footer_click tracking."
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.evalueserve.com/",
+      "page_type": "Homepage",
+      "title": "Evalueserve | Domain-Led AI Services",
+      "http_status": 200,
+      "load_time_ms": 295,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-bottom"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [
+          "Navigation",
+          "navigation"
+        ],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 295,
+        "script_count": 34,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/case-studies",
+      "page_type": "Product",
+      "title": "Client Stories - Evalueserve - Case Studies",
+      "http_status": 200,
+      "load_time_ms": 544,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-bottom"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [
+          "navigation"
+        ],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 544,
+        "script_count": 35,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/our-values",
+      "page_type": "Product",
+      "title": "Core Values | Evalueserve",
+      "http_status": 200,
+      "load_time_ms": 956,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-column"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 956,
+        "script_count": 33,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/demand-forecasting",
+      "page_type": "Product",
+      "title": "Demand Forecasting - Evalueserve",
+      "http_status": 200,
+      "load_time_ms": 358,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-column"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          },
+          {
+            "label": "Learn more",
+            "href": "#content"
+          },
+          {
+            "label": "CONTACT US",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 358,
+        "script_count": 34,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/evalueserve-in-the-news",
+      "page_type": "Product",
+      "title": "Latest Evalueserve News",
+      "http_status": 200,
+      "load_time_ms": 715,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-stats5"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "LEAD",
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 4,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 4,
+        "examples": [
+          {
+            "label": "Forbes Asia: Architecting Differentiated Security Services to Prevent Modern Thr",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2018/07/Forbes-Asia-PaloAlto-Case-Study-Evalueserve.pdf"
+          },
+          {
+            "label": "Read More",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2018/07/Forbes-Asia-PaloAlto-Case-Study-Evalueserve.pdf"
+          },
+          {
+            "label": "BN Americas: How LatAm talent can address global demand for data scientists",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2017/08/BnAmericas-EvalueserveChile.pdf"
+          },
+          {
+            "label": "Read More",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2017/08/BnAmericas-EvalueserveChile.pdf"
+          }
+        ]
+      },
+      "performance": {
+        "load_time_ms": 715,
+        "script_count": 33,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/careers-in",
+      "page_type": "Careers",
+      "title": "Careers - Evalueserve",
+      "http_status": 200,
+      "load_time_ms": 715,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-column"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          },
+          {
+            "label": "Learn More",
+            "href": "/life-and-culture/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 715,
+        "script_count": 34,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/digital-workflows",
+      "page_type": "Product",
+      "title": "Solutions Architecture - Evalueserve",
+      "http_status": 200,
+      "load_time_ms": 864,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-column"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          },
+          {
+            "label": "Download the Guide",
+            "href": "/speak-to-expert"
+          },
+          {
+            "label": "Learn More",
+            "href": "https://www.evalueserve.com/blog/data-analytics-spotlight-swapnil-srivastava/"
+          },
+          {
+            "label": "Learn More",
+            "href": "https://www.evalueserve.com/news/evalueserve-named-a-contender-in-customer-analytics-service-providers-report/"
+          },
+          {
+            "label": "Learn More",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2020/10/Re-imagine-the-Role-of-Technology-to-Drive-Time-Critical-Insights-Summary-of-Key-Points_1.pdf"
+          },
+          {
+            "label": "Learn More",
+            "href": "https://www.evalueserve.com/blog/professional-services-firms-are-not-generating-desired-roi/"
+          },
+          {
+            "label": "Learn more",
+            "href": "/product/insightsfirst-competitive-intelligence/"
+          },
+          {
+            "label": "Learn more",
+            "href": "/product/automated-financial-spreading-platform-spreadsmart/"
+          },
+          {
+            "label": "Learn more",
+            "href": "/product/publishwise/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 3,
+        "examples": [
+          {
+            "label": "",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2020/10/Re-imagine-the-Role-of-Technology-to-Drive-Time-Critical-Insights-Summary-of-Key-Points_1.pdf"
+          },
+          {
+            "label": "Reimagine the Role of Technology to Drive Time-Critical Insights: Insights Summa",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2020/10/Re-imagine-the-Role-of-Technology-to-Drive-Time-Critical-Insights-Summary-of-Key-Points_1.pdf"
+          },
+          {
+            "label": "Learn More",
+            "href": "https://www.evalueserve.com/wp-content/uploads/2020/10/Re-imagine-the-Role-of-Technology-to-Drive-Time-Critical-Insights-Summary-of-Key-Points_1.pdf"
+          }
+        ]
+      },
+      "performance": {
+        "load_time_ms": 864,
+        "script_count": 34,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/financial-spreading",
+      "page_type": "Product",
+      "title": "Financial Spreading | Evalueserve",
+      "http_status": 200,
+      "load_time_ms": 687,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "g-column"
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "HubSpot",
+          "vendor": "HubSpot",
+          "category": "Marketing Automation",
+          "priority": "High",
+          "signals": [
+            "_hsq.push",
+            "js.hs-scripts.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "Cookiebot",
+            "consent.cookiebot.com",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 2,
+        "form_tracking_signals": [
+          "Lead",
+          "lead"
+        ],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 3,
+        "tracking_signals": [],
+        "cta_candidates": [
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": true
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 687,
+        "script_count": 33,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "DataLayer",
+          "issue": "dataLayer exists but no dataLayer.push events found",
+          "recommendation": "Implement structured dataLayer events for page and journey interactions."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Navigation",
+          "issue": "Navigation or CTA elements found but no click tracking signal detected",
+          "recommendation": "Implement nav_click, cta_click, header_click, and footer_click events."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/china-insights",
+      "page_type": "General",
+      "title": "Just a moment...",
+      "http_status": 429,
+      "load_time_ms": 219,
+      "detected_platforms": [],
+      "consent": {
+        "platform": "None detected",
+        "policy_link_detected": false,
+        "consent_mode_signal_detected": false,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": false,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 0,
+        "form_tracking_signals": [],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 0,
+        "tracking_signals": [],
+        "cta_candidates": [],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 219,
+        "script_count": 0,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "Availability",
+          "issue": "Page returned HTTP 429",
+          "recommendation": "Validate page access and crawling permissions."
+        },
+        {
+          "severity": "CRITICAL",
+          "category": "Consent",
+          "issue": "No consent management platform detected",
+          "recommendation": "Validate CMP implementation and consent gating."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    },
+    {
+      "url": "https://www.evalueserve.com/about",
+      "page_type": "Product",
+      "title": "Just a moment...",
+      "http_status": 429,
+      "load_time_ms": 185,
+      "detected_platforms": [],
+      "consent": {
+        "platform": "None detected",
+        "policy_link_detected": false,
+        "consent_mode_signal_detected": false,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": false,
+        "push_count": 0,
+        "variables": []
+      },
+      "forms": {
+        "forms_found": 0,
+        "form_tracking_signals": [],
+        "has_gap": false
+      },
+      "navigation": {
+        "nav_elements": 0,
+        "tracking_signals": [],
+        "cta_candidates": [],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info",
+          "purchase"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 185,
+        "script_count": 0,
+        "tag_script_count": 0
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "Availability",
+          "issue": "Page returned HTTP 429",
+          "recommendation": "Validate page access and crawling permissions."
+        },
+        {
+          "severity": "CRITICAL",
+          "category": "Consent",
+          "issue": "No consent management platform detected",
+          "recommendation": "Validate CMP implementation and consent gating."
+        },
+        {
+          "severity": "HIGH",
+          "category": "Ecommerce",
+          "issue": "Ecommerce journey detected but no GA4 ecommerce events found",
+          "recommendation": "Implement GA4 ecommerce event schema across product, cart, checkout, and purchase journey."
+        }
+      ],
+      "raw_network_count": 0
+    }
+  ],
+  "journey_events": [],
+  "discovered_urls": [
+    "https://www.evalueserve.com/",
+    "https://www.evalueserve.com/case-studies",
+    "https://www.evalueserve.com/our-values",
+    "https://www.evalueserve.com/demand-forecasting",
+    "https://www.evalueserve.com/evalueserve-in-the-news",
+    "https://www.evalueserve.com/careers-in",
+    "https://www.evalueserve.com/digital-workflows",
+    "https://www.evalueserve.com/financial-spreading",
+    "https://www.evalueserve.com/china-insights",
+    "https://www.evalueserve.com/about"
+  ]
+}

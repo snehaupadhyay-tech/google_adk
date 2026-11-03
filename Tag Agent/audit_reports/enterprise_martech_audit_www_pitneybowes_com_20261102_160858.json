@@ -1,0 +1,253 @@
+{
+  "site_url": "https://www.pitneybowes.com/us",
+  "generated_at": "2026-11-02T16:08:58",
+  "website_type": "Universal / Corporate",
+  "pages_audited": 1,
+  "overall_score": 77,
+  "score_breakdown": {
+    "Website Type": "Universal / Corporate",
+    "Platform Coverage": 100,
+    "Tag Manager Coverage": 100,
+    "Consent Coverage": 100,
+    "DataLayer Coverage": 100,
+    "Journey Hit Rate": 50,
+    "Critical Issues": 0,
+    "High Issues": 1,
+    "Medium Issues": 1,
+    "Issue Penalty": 8,
+    "Overall Score": 77
+  },
+  "recommendations": [
+    {
+      "Priority": "High",
+      "Area": "Lead Tracking",
+      "Finding": "Form tracking gap found on 1 pages",
+      "Recommendation": "Implement form_start, form_submit and generate_lead."
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.pitneybowes.com/us",
+      "page_type": "Product",
+      "title": "Pitney Bowes US | Shipping, Mailing, Financial Services",
+      "http_status": 200,
+      "load_time_ms": 9675,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "G-E1B5RE4887",
+            "gtag("
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KFHLLSZ",
+            "dataLayer.push",
+            "googletagmanager.com/gtm.js",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "Adobe Analytics",
+          "vendor": "Adobe",
+          "category": "Analytics",
+          "priority": "High",
+          "signals": [
+            ".sc.omtrdc.net",
+            "/b/ss/"
+          ]
+        },
+        {
+          "platform": "Adobe Launch",
+          "vendor": "Adobe",
+          "category": "Tag Management",
+          "priority": "High",
+          "signals": [
+            "_satellite.",
+            "adobedtm.com",
+            "assets.adobedtm.com"
+          ]
+        },
+        {
+          "platform": "Meta Pixel",
+          "vendor": "Meta",
+          "category": "Advertising",
+          "priority": "High",
+          "signals": [
+            "connect.facebook.net",
+            "facebook.com/tr",
+            "fbq("
+          ]
+        },
+        {
+          "platform": "LinkedIn Insight Tag",
+          "vendor": "LinkedIn",
+          "category": "Advertising",
+          "priority": "High",
+          "signals": [
+            "px.ads.linkedin.com",
+            "snap.licdn.com"
+          ]
+        },
+        {
+          "platform": "Microsoft/Bing Ads",
+          "vendor": "Microsoft",
+          "category": "Advertising",
+          "priority": "Medium",
+          "signals": [
+            "bat.bing.com"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 4,
+        "variables": [
+          "granted"
+        ]
+      },
+      "forms": {
+        "forms_found": 1,
+        "form_tracking_signals": [],
+        "has_gap": true
+      },
+      "navigation": {
+        "nav_elements": 27,
+        "tracking_signals": [
+          "Navigation",
+          "navigation"
+        ],
+        "cta_candidates": [
+          {
+            "label": "Supplies",
+            "href": "https://www.pitneybowes.us/shop/home/en-us/storeus"
+          },
+          {
+            "label": "",
+            "href": "https://www.pitneybowes.us/shop/cart/en-us/storeus"
+          },
+          {
+            "label": "Sign In",
+            "href": "https://account.pitneybowes.com/signin/logon.go?request_locale=en_US"
+          },
+          {
+            "label": "Supplies",
+            "href": "https://www.pitneybowes.us/shop/home/en-us/storeus"
+          },
+          {
+            "label": "Sign in",
+            "href": "https://account.pitneybowes.com/signin/logon.go?request_locale=en_US"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/us/support/contact-us.html"
+          },
+          {
+            "label": "Ink  & Supplies by Meter",
+            "href": "https://www.pitneybowes.us/shop/postage-meter-ink-supplies/shop-by-product/postage-meter-ink/en-us/storeus?cm_sp=buysupplies_footer_ink_supplies_by_meter"
+          },
+          {
+            "label": "Mailing Supplies",
+            "href": "https://www.pitneybowes.us/shop/ink-and-supplies/shipping-and-packing-supplies/shipping-and-packing-supplies/en-us/storeus?cm_sp=buysupplies_footer_mailingsuppl"
+          },
+          {
+            "label": "Order History",
+            "href": "https://account.pitneybowes.com/signin/youraccount.go?rememberMe=false&request_locale=en_US#/order-history?cm_sp=buysupplies_footer_orderhistory"
+          },
+          {
+            "label": "Sign in to your account",
+            "href": "https://account.pitneybowes.com/signin/logon.go?request_locale=en_US#/account/login"
+          },
+          {
+            "label": "View & Pay Bills",
+            "href": "https://account.pitneybowes.com/signin/samlAuthn?redirect=https%3A%2F%2Fsso.pitneybowes.com%2Fapp%2Fpitneybowes_samlpbyouraccountmigrated_1%2Fexk164tvc3kbAxV2h1"
+          },
+          {
+            "label": "View Order History",
+            "href": "https://account.pitneybowes.com/signin/samlAuthn?redirect=https%3A%2F%2Fsso.pitneybowes.com%2Fapp%2Fpitneybowes_samlpbyouraccountmigrated_1%2Fexk164tvc3kbAxV2h1"
+          }
+        ],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": true,
+        "ga4_ecommerce_events_found": [
+          "purchase"
+        ],
+        "missing_if_applicable": [
+          "view_item",
+          "select_item",
+          "add_to_cart",
+          "view_cart",
+          "begin_checkout",
+          "add_shipping_info",
+          "add_payment_info"
+        ]
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 9675,
+        "script_count": 45,
+        "tag_script_count": 31
+      },
+      "custom_events": [
+        "ViewContent",
+        "conversion",
+        "purchase"
+      ],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "Forms",
+          "issue": "Forms detected but no form tracking signal found",
+          "recommendation": "Implement form_start and form_submit or generate_lead tracking."
+        },
+        {
+          "severity": "MEDIUM",
+          "category": "Performance",
+          "issue": "Page load time above 5 seconds: 9675 ms",
+          "recommendation": "Review third-party script impact."
+        }
+      ],
+      "raw_network_count": 146
+    }
+  ],
+  "journey_events": [],
+  "discovered_urls": [
+    "https://www.pitneybowes.com/us"
+  ],
+  "network_logs": [],
+  "skipped_interactions": []
+}

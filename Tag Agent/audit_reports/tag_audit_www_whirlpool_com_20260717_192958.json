@@ -1,0 +1,967 @@
+{
+  "url": "https://www.whirlpool.com",
+  "audited_at": "2026-07-17T19:29:57",
+  "domain": "www.whirlpool.com",
+  "page_title": "Home, Kitchen & Laundry Appliances & Products | Whirlpool",
+  "health_score": 67,
+  "tags": [
+    {
+      "name": "Google Analytics 4",
+      "vendor": "Google",
+      "category": "Analytics",
+      "priority": "CRITICAL",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: googletagmanager.com/gtag/js?id=G-",
+        "js: gtag(",
+        "js: g-projects",
+        "network: https://www.google-analytics.com/g/collect?v=2&tid=G-1KCTV5CBRR&gtm=45je67f0h1v9246494581z8924727628"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-1KCTV5CBRR&gtm=45je67f0h1v9246494581z89247276280za20gzb9247276280zd9247276280&_p=1784296775142&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=1405666749.1784296780&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~118981135~119527020&dt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products&dr=&sid=1784296779&sct=1&seg=0&dl=https%3A%2F%2Fwww.whirlpool.com%2F&_tu=CA&uid=&en=page_view&_fv=1&_nsi=1&_ss=1&ep.env_brand=whirlpool&ep.env_country=us&ep.env_deployment=prod&ep.env_platform=website&ep.env_currency=USD&ep.page_id=home&ep.page_error=&ep.page_type=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&ep.page_application_source=AEM&ep.page_language=en-us&up.user_logged=guest&up.client_id_fallback=&tfd=6806",
+        "https://www.google-analytics.com/g/collect?v=2&tid=G-1KCTV5CBRR&gtm=45je67f0h1v9246494581z89247276280za20gzb9247276280zd9247276280&_p=1784296775142&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&are=1&cid=1405666749.1784296780&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~118981135~119527020&dt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products&dr=&sid=1784296779&sct=1&seg=0&dl=https%3A%2F%2Fwww.whirlpool.com%2F&_tu=CA&uid=&en=page_view&_fv=1&_nsi=1&_ss=1&ep.env_brand=whirlpool&ep.env_country=us&ep.env_deployment=prod&ep.env_platform=website&ep.env_currency=USD&ep.page_id=home&ep.page_error=&ep.page_type=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&ep.page_application_source=AEM&ep.page_language=en-us&up.user_logged=guest&up.client_id_fallback=&tfd=6806"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Google Universal Analytics",
+      "vendor": "Google",
+      "category": "Analytics",
+      "priority": "DEPRECATED",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Google Tag Manager",
+      "vendor": "Google",
+      "category": "Tag Management",
+      "priority": "CRITICAL",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: googletagmanager.com/gtm.js?id=GTM-",
+        "script: noscript) -->\n<!-- Google Tag Manager (noscript) --> <noscript><iframe src=\"http",
+        "js: GTM-WBGVN6BF",
+        "js: dataLayer.push(",
+        "network: https://www.googletagmanager.com/gtm.js?id=GTM-WBGVN6BF"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WBGVN6BF",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WBGVN6BF"
+      ],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Adobe Analytics",
+      "vendor": "Adobe",
+      "category": "Analytics",
+      "priority": "HIGH",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: sc.omtrdc.net",
+        "js: s.tl(",
+        "network: https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101%40AdobeOrg&mid=75865432793195376454088916592765955075&ts=1784296778590",
+        "https://whirlpool.sc.omtrdc.net/b/ss/whirlpoolwhirlpoolusprod,whirlpool.multi.us.ecomm.prod/10/JS-2.23.0-LGU4/s24767528516437?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=17%2F6%2F2026%2019%3A29%3A43%205%20-330&d.&nsid=0&jsonv=1&.d&sdid=30967CE818F18639-272EA7A13979C697&mid=75865432793195376454088916592765955075&aamlh=12&ce=UTF-8&pageName=home&g=https%3A%2F%2Fwww.whirlpool.com%2F&c.&getQueryParam=4.0.1&pt=3.0&getTimeSinceLastVisit=2.0&.c&cc=USD&ch=home&server=www.whirlpool.com&events=event214%2Cevent76&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c1=D%3Dv1&v1=guest&c2=https%3A%2F%2Fwww.whirlpool.com%2F&v2=https%3A%2F%2Fwww.whirlpool.com%2F&v4=New&c5=D%3Dv21&v9=whirlpool%3Aus%3Aen%3Ahome&v12=us&v13=whirlpool&v14=D%3Dmid&v21=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&v23=new&c24=D%3Dv5&v24=9%3A59%20AM%7CFriday&c30=D%3Dv55&c31=D%3Dv56&c32=D%3Dv57&c33=D%3Dv58&c34=D%3Dv59&c35=D%3Dv60&v39=07%2F17%2F2026&c45=D%3Dv81&v45=D%3Dr&c49=D%3Dv80&v55=Home&c62=D%3Dv62&v64=0.4949533676589767_1784296776900&c72=Launch%7Cproduction%7C2026-07-07T13%3A40%3A32Z%7CTurbine%20v29.1.0_2026-06-04T21%3A23%3A22Z&c73=%2CC0001%2CC0003%2CC0002%2CBG992%2CC0007%2CC0005%2CC0004%2C&c74=v3%3Ahome&v81=en-us&v160=unknown%20user&s=1280x720&c=24&j=1.6&v=N&k=Y&bw=1280&bh=720&mcorgid=64D46F3055E485647F000101%40AdobeOrg&AQE=1",
+        "https://whirlpool.sc.omtrdc.net/b/ss/whirlpoolwhirlpoolusprod,whirlpool.multi.us.ecomm.prod/10/JS-2.23.0-LGU4/s24219255996317?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=17%2F6%2F2026%2019%3A29%3A48%205%20-330&d.&nsid=0&jsonv=1&.d&mid=75865432793195376454088916592765955075&aamlh=12&ce=UTF-8&pageName=home&g=https%3A%2F%2Fwww.whirlpool.com%2F&cc=USD&ch=home&server=www.whirlpool.com&events=event18&c1=D%3Dv1&v1=guest&c2=https%3A%2F%2Fwww.whirlpool.com%2F&v2=https%3A%2F%2Fwww.whirlpool.com%2F&v4=New&c5=D%3Dv21&v9=whirlpool%3Aus%3Aen%3Ahome&c21=D%3Dv32&v21=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&c22=D%3Dv33&c23=D%3Dv34&v32=lead%20gen%20pop-up&v33=%28unset%29&v34=launched&c49=D%3Dv80&v64=0.4949533676589767_1784296776900&c72=Launch%7Cproduction%7C2026-07-07T13%3A40%3A32Z%7CTurbine%20v29.1.0_2026-06-04T21%3A23%3A22Z&c73=%2CC0001%2CC0003%2CC0002%2CBG992%2CC0007%2CC0005%2CC0004%2C&pe=lnk_o&pev2=lead_gen_persistent_sign-up_interaction&s=1280x720&c=24&j=1.6&v=N&k=Y&bw=1280&bh=720&mcorgid=64D46F3055E485647F000101%40AdobeOrg&lrt=624&AQE=1",
+        "https://whirlpool.sc.omtrdc.net/id?d_visid_ver=5.5.0&d_fieldgroup=A&mcorgid=64D46F3055E485647F000101%40AdobeOrg&mid=75865432793195376454088916592765955075&ts=1784296778590",
+        "https://whirlpool.sc.omtrdc.net/b/ss/whirlpoolwhirlpoolusprod,whirlpool.multi.us.ecomm.prod/10/JS-2.23.0-LGU4/s24767528516437?AQB=1&ndh=1&pf=1&callback=s_c_il[1].doPostbacks&et=1&t=17%2F6%2F2026%2019%3A29%3A43%205%20-330&d.&nsid=0&jsonv=1&.d&sdid=30967CE818F18639-272EA7A13979C697&mid=75865432793195376454088916592765955075&aamlh=12&ce=UTF-8&pageName=home&g=https%3A%2F%2Fwww.whirlpool.com%2F&c.&getQueryParam=4.0.1&pt=3.0&getTimeSinceLastVisit=2.0&.c&cc=USD&ch=home&server=www.whirlpool.com&events=event214%2Cevent76&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c1=D%3Dv1&v1=guest&c2=https%3A%2F%2Fwww.whirlpool.com%2F&v2=https%3A%2F%2Fwww.whirlpool.com%2F&v4=New&c5=D%3Dv21&v9=whirlpool%3Aus%3Aen%3Ahome&v12=us&v13=whirlpool&v14=D%3Dmid&v21=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&v23=new&c24=D%3Dv5&v24=9%3A59%20AM%7CFriday&c30=D%3Dv55&c31=D%3Dv56&c32=D%3Dv57&c33=D%3Dv58&c34=D%3Dv59&c35=D%3Dv60&v39=07%2F17%2F2026&c45=D%3Dv81&v45=D%3Dr&c49=D%3Dv80&v55=Home&c62=D%3Dv62&v64=0.4949533676589767_1784296776900&c72=Launch%7Cproduction%7C2026-07-07T13%3A40%3A32Z%7CTurbine%20v29.1.0_2026-06-04T21%3A23%3A22Z&c73=%2CC0001%2CC0003%2CC0002%2CBG992%2CC0007%2CC0005%2CC0004%2C&c74=v3%3Ahome&v81=en-us&v160=unknown%20user&s=1280x720&c=24&j=1.6&v=N&k=Y&bw=1280&bh=720&mcorgid=64D46F3055E485647F000101%40AdobeOrg&AQE=1"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Adobe Launch",
+      "vendor": "Adobe",
+      "category": "Tag Management",
+      "priority": "HIGH",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: assets.adobedtm.com",
+        "js: _satellite.",
+        "js: _satellite.track(",
+        "network: https://assets.adobedtm.com/96b96059a3b2/33fd836383b3/launch-1cb39f5f38a0.min.js"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://assets.adobedtm.com/96b96059a3b2/33fd836383b3/launch-1cb39f5f38a0.min.js",
+        "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+        "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+        "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_AudienceManagement.min.js",
+        "https://assets.adobedtm.com/96b96059a3b2/33fd836383b3/aada1399809c/RC7acf37e6363648eea56d7a16cddc9b32-source.min.js"
+      ],
+      "gdpr_risk": "LOW",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Heap Analytics",
+      "vendor": "Heap",
+      "category": "Analytics",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Mixpanel",
+      "vendor": "Mixpanel",
+      "category": "Analytics",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Meta Pixel",
+      "vendor": "Meta",
+      "category": "Advertising",
+      "priority": "CRITICAL",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: connect.facebook.net/en_US/fbevents.js",
+        "network: https://www.facebook.com/tr/?id=923566111327830&ev=ViewContent&dl=https%3A%2F%2Fwww.whirlpool.com%2F"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://www.facebook.com/tr/?id=923566111327830&ev=ViewContent&dl=https%3A%2F%2Fwww.whirlpool.com%2F&rl=&if=false&ts=1784296783615&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784296783609.887196746964562027&ler=empty&cdl=API_unavailable&plt=6456.0999999940395&tz=330&it=1784296779590&coo=false&dpo=LDU&dpoco=0&dpost=0&tm=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im0&expv2[6]=hf0&rqm=GET",
+        "https://www.facebook.com/tr/?id=700963676997130&ev=PageView&dl=https%3A%2F%2Fwww.whirlpool.com%2F&rl=&if=false&ts=1784296783620&iw=false&sw=1280&sh=720&cud[em]=&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784296783609.887196746964562027&ler=empty&cdl=API_unavailable&plt=6456.0999999940395&tz=330&it=1784296779590&coo=false&dpo=LDU&dpoco=0&dpost=0&tm=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im0&expv2[6]=hf0&rqm=GET",
+        "https://www.facebook.com/tr/?id=700963676997130&ev=ContentType&dl=https%3A%2F%2Fwww.whirlpool.com%2F&rl=&if=false&ts=1784296783623&iw=false&cd[contentType]=whirlpool%2Fv2%2Fcomponents%2Fstructure%2Fhomepage&cd[contentMDA]=&cd[contentLocation]=&sw=1280&sh=720&cud[em]=&v=2.9.356&r=stable&ec=1&o=4125&aems=0%3B0&fbp=fb.1.1784296783609.887196746964562027&ler=empty&cdl=API_unavailable&plt=6456.0999999940395&tz=330&it=1784296779590&coo=false&dpo=LDU&dpoco=0&dpost=0&tm=2&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im0&expv2[6]=hf0&rqm=GET",
+        "https://www.facebook.com/tr/?id=1755907877987251&ev=PageView&dl=https%3A%2F%2Fwww.whirlpool.com%2F&rl=&if=false&ts=1784296783625&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784296783609.887196746964562027&eid=ob3_plugin-set_f9094220377bf04e6698bcb31513ba0776d44941e3106e876d317feeb8c7a99f&ler=empty&cdl=API_unavailable&plt=6456.0999999940395&tz=330&it=1784296779590&coo=false&dpo=LDU&dpoco=0&dpost=0&tm=1&cf=1&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im0&expv2[6]=hf0&expv2[7]=pt1&rqm=GET",
+        "https://www.facebook.com/tr/?id=1755907877987251&ev=ViewContent&dl=https%3A%2F%2Fwww.whirlpool.com%2F&rl=&if=false&ts=1784296783642&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=1&o=4125&aems=0%3B0&fbp=fb.1.1784296783609.887196746964562027&eid=ob3_plugin-set_3ecf19cfa2be67f097b4fa94bd5ded9a9ef7777f6a998f14e8bdf3150f0a2e7c&ler=empty&cdl=API_unavailable&plt=6456.0999999940395&tz=330&it=1784296779590&coo=false&dpo=LDU&dpoco=0&dpost=0&tm=1&cf=1&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im0&expv2[6]=hf0&rqm=GET"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Google Ads",
+      "vendor": "Google",
+      "category": "Advertising",
+      "priority": "HIGH",
+      "status": "FOUND",
+      "matched_signals": [
+        "js: gtag('event', 'conversion'",
+        "network: https://googleads.g.doubleclick.net/pagead/viewthroughconversion/713226294/?random=1784296780579&cv="
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/713226294/?random=1784296780579&cv=11&fst=1784296780579&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0h1v9173039321za200zb9247276280zd9247276280xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119773331&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.whirlpool.com%2F&rcb=0&frm=0&tiba=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=534494670.1784296780&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/975130512/?random=1784296779894&cv=11&fst=1784296779894&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0h1za200zb9247276280zd9247276280xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.whirlpool.com%2F&rcb=18&frm=0&tiba=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=534494670.1784296780&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/710117600/?random=1784296780185&cv=11&fst=1784296780185&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0h1v9221752459za200zb9247276280zd9247276280xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938469~118395334~118897920~118897930~119709550~119996999&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.whirlpool.com%2F&rcb=13&frm=0&tiba=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=534494670.1784296780&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/710731355/?random=1784296780498&cv=11&fst=1784296780498&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0h1v9174835793za200zb9247276280zd9247276280xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119709549&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.whirlpool.com%2F&rcb=4&frm=0&tiba=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=534494670.1784296780&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/713226042/?random=1784296780614&cv=11&fst=1784296780614&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be67f0h1v9173039321za200zb9247276280zd9247276280xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938468~118395334~118897920~118897930~119773331&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.whirlpool.com%2F&rcb=0&frm=0&tiba=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=534494670.1784296780&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.125%7CGoogle%2520Chrome%3B150.0.7871.125&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "LinkedIn Insight Tag",
+      "vendor": "LinkedIn",
+      "category": "Advertising",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "TikTok Pixel",
+      "vendor": "TikTok",
+      "category": "Advertising",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Twitter/X Pixel",
+      "vendor": "X",
+      "category": "Advertising",
+      "priority": "MEDIUM",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: static.ads-twitter.com/uwt.js",
+        "network: https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268",
+        "network: https://analytics.twitter.com/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268%2624%261280%26720%260%26na&eci=2&event_id=8789165b-e40e-441c-82b5-4bf0d43c5515&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=92f3eac7-150f-41d8-b486-d1e52ba8e8f5&pt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&tw_document_href=https%3A%2F%2Fwww.whirlpool.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784296779681.250342318308391062&txn_id=o37e2&type=javascript&version=2.3.53",
+        "https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268%2624%261280%26720%260%26na&eci=2&event_id=8789165b-e40e-441c-82b5-4bf0d43c5515&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=92f3eac7-150f-41d8-b486-d1e52ba8e8f5&pt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&tw_document_href=https%3A%2F%2Fwww.whirlpool.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784296779681.250342318308391062&txn_id=o37e2&type=javascript&version=2.3.53",
+        "https://t.co/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268%2624%261280%26720%260%26na&eci=2&event_id=8789165b-e40e-441c-82b5-4bf0d43c5515&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=92f3eac7-150f-41d8-b486-d1e52ba8e8f5&pt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&tw_document_href=https%3A%2F%2Fwww.whirlpool.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784296779681.250342318308391062&txn_id=o37e2&type=javascript&version=2.3.53",
+        "https://analytics.twitter.com/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268%2624%261280%26720%260%26na&eci=2&event_id=8789165b-e40e-441c-82b5-4bf0d43c5515&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=92f3eac7-150f-41d8-b486-d1e52ba8e8f5&pt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&tw_document_href=https%3A%2F%2Fwww.whirlpool.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784296779681.250342318308391062&txn_id=o37e2&type=javascript&version=2.3.53",
+        "https://analytics.twitter.com/i/adsct?bci=3&dv=Asia%2FCalcutta%26en-US%26Google%20Inc.%26Win32%26255%261280%26720%268%2624%261280%26720%260%26na&eci=2&event_id=8789165b-e40e-441c-82b5-4bf0d43c5515&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=92f3eac7-150f-41d8-b486-d1e52ba8e8f5&pt=Home%2C%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&tw_document_href=https%3A%2F%2Fwww.whirlpool.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1784296779681.250342318308391062&txn_id=o37e2&type=javascript&version=2.3.53"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Microsoft/Bing Ads",
+      "vendor": "Microsoft",
+      "category": "Advertising",
+      "priority": "MEDIUM",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: bat.bing.com/bat.js",
+        "js: uetq.push(",
+        "js: window.uetq",
+        "network: https://bat.bing.com/action/0?ti=25071132&Ver=2&mid=f07bf088-1581-4ecd-b541-e247e3e9cf9f&bo=1&sid=c0"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://bat.bing.com/action/0?ti=25071132&Ver=2&mid=f07bf088-1581-4ecd-b541-e247e3e9cf9f&bo=1&sid=c0a7df0081e711f1a22f990278bfb08f&vid=c0a7df6081e711f1b725d12395d79c6c&vids=1&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Home,%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&kw=home%20appliances,major%20appliances,Whirlpool%C2%AE%20Appliances&p=https%3A%2F%2Fwww.whirlpool.com%2F&r=&lt=6456&evt=pageLoad&sv=2&cdb=AQAC&rn=579496",
+        "https://bat.bing.com/action/0?ti=26084146&Ver=2&mid=655367f0-d37d-4ac0-a5c4-c8bbda1ecb7d&bo=1&sid=c0a7df0081e711f1a22f990278bfb08f&vid=c0a7df6081e711f1b725d12395d79c6c&vids=0&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Home,%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&kw=home%20appliances,major%20appliances,Whirlpool%C2%AE%20Appliances&p=https%3A%2F%2Fwww.whirlpool.com%2F&r=&lt=6456&evt=pageLoad&sv=2&cdb=AQAC&rn=352068",
+        "https://bat.bing.com/action/0?ti=295018817&Ver=2&mid=c5bd7d1f-1aab-45c8-9138-a954e428511b&bo=1&sid=c0a7df0081e711f1a22f990278bfb08f&vid=c0a7df6081e711f1b725d12395d79c6c&vids=0&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Home,%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&kw=home%20appliances,major%20appliances,Whirlpool%C2%AE%20Appliances&p=https%3A%2F%2Fwww.whirlpool.com%2F&r=&lt=6456&evt=pageLoad&sv=2&cdb=AQAC&rn=510683",
+        "https://bat.bing.com/action/0?ti=&Ver=2&mid=2647e94a-742c-4a87-b0e8-c8d08b7a1bf1&bo=1&sid=c0a7df0081e711f1a22f990278bfb08f&vid=c0a7df6081e711f1b725d12395d79c6c&vids=0&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Home,%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&kw=home%20appliances,major%20appliances,Whirlpool%C2%AE%20Appliances&p=https%3A%2F%2Fwww.whirlpool.com%2F&r=&lt=6456&evt=pageLoad&sv=2&cdb=AQAC&rn=201100",
+        "https://bat.bing.com/action/0?ti=25071132&Ver=2&mid=f07bf088-1581-4ecd-b541-e247e3e9cf9f&bo=1&sid=c0a7df0081e711f1a22f990278bfb08f&vid=c0a7df6081e711f1b725d12395d79c6c&vids=1&msclkid=N&uach=pv%3D10.0&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Home,%20Kitchen%20%26%20Laundry%20Appliances%20%26%20Products%20%7C%20Whirlpool&kw=home%20appliances,major%20appliances,Whirlpool%C2%AE%20Appliances&p=https%3A%2F%2Fwww.whirlpool.com%2F&r=&lt=6456&evt=pageLoad&sv=2&cdb=AQAC&rn=579496"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Pinterest Tag",
+      "vendor": "Pinterest",
+      "category": "Advertising",
+      "priority": "LOW",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: s.pinimg.com/ct/core.js",
+        "network: https://ct.pinterest.com/v3/?tid=2613706329461&noscript=1"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://ct.pinterest.com/v3/?tid=2613706329461&noscript=1",
+        "https://ct.pinterest.com/v3/?tid=2617029498403&event=ViewCategory&noscript=1",
+        "https://ct.pinterest.com/v3/?tid=2613706329461&noscript=1",
+        "https://ct.pinterest.com/v3/?tid=2617029498403&event=ViewCategory&noscript=1"
+      ],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Snapchat Pixel",
+      "vendor": "Snapchat",
+      "category": "Advertising",
+      "priority": "LOW",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Criteo",
+      "vendor": "Criteo",
+      "category": "Retargeting",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "HubSpot",
+      "vendor": "HubSpot",
+      "category": "Marketing Automation",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Marketo",
+      "vendor": "Adobe/Marketo",
+      "category": "Marketing Automation",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Pardot",
+      "vendor": "Salesforce",
+      "category": "Marketing Automation",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Klaviyo",
+      "vendor": "Klaviyo",
+      "category": "Email / CRM",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Hotjar",
+      "vendor": "Hotjar",
+      "category": "CRO / Session Recording",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Microsoft Clarity",
+      "vendor": "Microsoft",
+      "category": "CRO / Session Recording",
+      "priority": "MEDIUM",
+      "status": "FOUND",
+      "matched_signals": [
+        "script: www.clarity.ms/tag/"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "FullStory",
+      "vendor": "FullStory",
+      "category": "Session Recording",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Optimizely",
+      "vendor": "Optimizely",
+      "category": "A/B Testing",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "VWO",
+      "vendor": "VWO",
+      "category": "A/B Testing",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Segment",
+      "vendor": "Twilio",
+      "category": "CDP",
+      "priority": "HIGH",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "OneTrust",
+      "vendor": "OneTrust",
+      "category": "Consent Management",
+      "priority": "CRITICAL",
+      "status": "FOUND",
+      "matched_signals": [
+        "js: OptanonWrapper",
+        "network: https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/OtAutoBlock.js",
+        "network: https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+      ],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [
+        "https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/OtAutoBlock.js",
+        "https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/otSDKStub.js",
+        "https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/fbd8c34f-e90b-43e9-9ab1-543aab83f925.json",
+        "https://cdn.cookielaw.org/scripttemplates/202604.2.0/otBannerSdk.js",
+        "https://cdn.cookielaw.org/consent/fbd8c34f-e90b-43e9-9ab1-543aab83f925/019bbcd7-0605-7fe8-a84d-db585bffa436/en.json",
+        "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+      ],
+      "gdpr_risk": "LOW",
+      "deprecation_note": "",
+      "score": 90,
+      "notes": []
+    },
+    {
+      "name": "Cookiebot",
+      "vendor": "Usercentrics",
+      "category": "Consent Management",
+      "priority": "CRITICAL",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "LOW",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Intercom",
+      "vendor": "Intercom",
+      "category": "Customer Engagement",
+      "priority": "MEDIUM",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Drift",
+      "vendor": "Drift",
+      "category": "Conversational Marketing",
+      "priority": "LOW",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Taboola",
+      "vendor": "Taboola",
+      "category": "Content Discovery",
+      "priority": "LOW",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Outbrain",
+      "vendor": "Outbrain",
+      "category": "Content Discovery",
+      "priority": "LOW",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "HIGH",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    },
+    {
+      "name": "Qualtrics",
+      "vendor": "Qualtrics",
+      "category": "Survey / Experience",
+      "priority": "LOW",
+      "status": "MISSING",
+      "matched_signals": [],
+      "param_issues": [],
+      "firing_issues": [],
+      "network_requests": [],
+      "gdpr_risk": "MEDIUM",
+      "deprecation_note": "",
+      "score": 0,
+      "notes": []
+    }
+  ],
+  "issues": [
+    {
+      "severity": "HIGH",
+      "category": "Cross-Domain",
+      "tag": "GA4 Linker",
+      "issue": "Cross-domain links found (49) but no linker configuration detected.",
+      "recommendation": "Configure cross-domain linker settings.",
+      "evidence": ""
+    },
+    {
+      "severity": "HIGH",
+      "category": "Form Tracking",
+      "tag": "Forms",
+      "issue": "4 form(s) detected but no form_submit/generate_lead event found.",
+      "recommendation": "Add form_submit or generate_lead events.",
+      "evidence": ""
+    },
+    {
+      "severity": "HIGH",
+      "category": "DataLayer",
+      "tag": "dataLayer",
+      "issue": "dataLayer detected but no dataLayer.push() calls found.",
+      "recommendation": "Implement structured dataLayer events.",
+      "evidence": ""
+    },
+    {
+      "severity": "HIGH",
+      "category": "E-Commerce",
+      "tag": "GA4 Ecommerce",
+      "issue": "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase",
+      "recommendation": "Implement full ecommerce event schema.",
+      "evidence": ""
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Video Tracking",
+      "tag": "Video",
+      "issue": "Video players found but no video tracking events detected.",
+      "recommendation": "Add video_start, video_progress, and video_complete events.",
+      "evidence": ""
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Performance",
+      "tag": "Tags",
+      "issue": "21 tag-related scripts loaded. Potential performance impact.",
+      "recommendation": "Audit and remove redundant tags.",
+      "evidence": ""
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Performance",
+      "tag": "Tags",
+      "issue": "Page load time is 21274ms, above 5 seconds.",
+      "recommendation": "Audit and remove redundant tags.",
+      "evidence": ""
+    },
+    {
+      "severity": "LOW",
+      "category": "Navigation",
+      "tag": "Nav Clicks",
+      "issue": "Navigation elements found but no navigation click tracking detected.",
+      "recommendation": "Add navigation/menu click tracking.",
+      "evidence": ""
+    }
+  ],
+  "spa_detected": false,
+  "spa_audit": {
+    "detected": false,
+    "framework": "Unknown",
+    "issues": [],
+    "recommendations": [],
+    "score": "N/A",
+    "applicability": "Not applicable - No SPA framework detected"
+  },
+  "cross_domain_tracking": {
+    "base_domain": "www.whirlpool.com",
+    "linked_domains": [
+      "www.kitchenaid.com",
+      "www.maytag.com",
+      "www.amana.com",
+      "www.gladiatorgarageworks.com",
+      "producthelp.whirlpool.com",
+      "preferences.whirlpool.com",
+      "service.whirlpool.com",
+      "whirlpoolcorp.com",
+      "affirm.com",
+      "www.bazaarvoice.com",
+      "register.whirlpool.com",
+      "whirlpool.com",
+      "www.instagram.com",
+      "www.facebook.com",
+      "www.pinterest.com",
+      "www.youtube.com",
+      "whirlpoolci.qualtrics.com",
+      "www.swash.com",
+      "www.whirlpoolcommerciallaundry.com",
+      "investors.whirlpoolcorp.com",
+      "www.whirlpoolcareers.com",
+      "www.whirlpoolcorp.com",
+      "privacyportal-de.onetrust.com",
+      "www.onetrust.com"
+    ],
+    "cross_domain_links": [
+      "https://www.kitchenaid.com?driver=ref:whp:cross_site_link:utility_nav",
+      "https://www.maytag.com?driver=ref:whp:cross_site_link:utility_nav",
+      "https://www.amana.com?driver=ref:whp:cross_site_link:utility_nav",
+      "https://www.gladiatorgarageworks.com/?driver=ref:whp:cross_site_link:utility_nav",
+      "https://producthelp.whirlpool.com/",
+      "https://producthelp.whirlpool.com/",
+      "https://preferences.whirlpool.com/Preferences/OptDown",
+      "https://producthelp.whirlpool.com/",
+      "https://service.whirlpool.com/",
+      "https://whirlpoolcorp.com/legal-notice/",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "http://affirm.com/lenders",
+      "http://affirm.com/licenses",
+      "https://www.bazaarvoice.com/products/visual-and-social-content/?utm_source=BiOHIqgvmmFuDhST&utm_medium=referral&utm_campaign=powered-by&utm_term=layout",
+      "https://register.whirlpool.com",
+      "https://service.whirlpool.com/",
+      "http://affirm.com/lenders",
+      "http://affirm.com/licenses",
+      "http://whirlpool.com/",
+      "http://whirlpool.com/",
+      "http://affirm.com/lenders",
+      "http://affirm.com/licenses",
+      "https://register.whirlpool.com/registration",
+      "https://whirlpoolcorp.com/legal-notice/",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "https://www.instagram.com/whirlpoolusa",
+      "https://www.facebook.com/whirlpoolusa",
+      "https://www.pinterest.com/whirlpoolusa/",
+      "https://www.youtube.com/user/whirlpoolusa",
+      "https://whirlpoolci.qualtrics.com/jfe/form/SV_6g6IKt4cDXenJ3w",
+      "http://producthelp.whirlpool.com/",
+      "https://register.whirlpool.com/registration",
+      "https://service.whirlpool.com/",
+      "https://www.swash.com/",
+      "https://www.whirlpoolcommerciallaundry.com",
+      "https://investors.whirlpoolcorp.com",
+      "https://www.whirlpoolcareers.com",
+      "https://www.whirlpoolcorp.com/our-impact/our-commitments.html",
+      "https://www.whirlpoolcorp.com/our-impact/social-impact/social-responsibility.html",
+      "https://whirlpoolcorp.com/recall/",
+      "https://whirlpoolcorp.com/legal-notice/",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "http://whirlpoolcorp.com/supplier-code-of-conduct",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/#interest-based-ads",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "https://privacyportal-de.onetrust.com/webform/27a5367b-1368-47a0-a893-b944fb7aeb6d/e3aa8d32-d557-4286-bb65-d620554a6e6f",
+      "https://whirlpoolcorp.com/privacy-notice-united-states-and-canada/",
+      "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner"
+    ],
+    "linker_detected": false,
+    "issues": [
+      "Cross-domain links found (49) but no linker configuration detected."
+    ],
+    "score": 50
+  },
+  "consent_layer": {
+    "platform": "OneTrust",
+    "gdpr_banner_present": true,
+    "cookie_policy_link": true,
+    "issues": [],
+    "score": 90
+  },
+  "datalayer_health": {
+    "detected": true,
+    "pushes_found": 0,
+    "variables": [],
+    "issues": [
+      "dataLayer detected but no dataLayer.push() calls found."
+    ],
+    "score": 55
+  },
+  "ecommerce_audit": {
+    "detected": true,
+    "platform": "Unknown",
+    "events": [],
+    "missing_events": [
+      "view_item",
+      "add_to_cart",
+      "view_cart",
+      "begin_checkout",
+      "add_shipping_info",
+      "add_payment_info",
+      "purchase"
+    ],
+    "issues": [
+      "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase"
+    ],
+    "score": 0,
+    "applicability": "Applicable - Ecommerce journey detected"
+  },
+  "form_tracking": {
+    "forms_found": 4,
+    "forms_with_tracking": 0,
+    "tracked_events": [],
+    "issues": [
+      "4 form(s) detected but no form_submit/generate_lead event found."
+    ],
+    "score": 0,
+    "applicability": "Applicable - Gap"
+  },
+  "scroll_tracking": {
+    "detected": true,
+    "thresholds": [
+      "10",
+      "20",
+      "25",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "75",
+      "80",
+      "90",
+      "100"
+    ],
+    "issues": [],
+    "score": 80,
+    "applicability": "Applicable - Scroll tracking signal detected"
+  },
+  "video_tracking": {
+    "players_found": [
+      "HTML5 video (2)"
+    ],
+    "tracking_detected": false,
+    "events": [],
+    "issues": [
+      "Video players found but no video tracking events detected."
+    ],
+    "score": 10,
+    "applicability": "Applicable - Gap"
+  },
+  "audio_tracking": {
+    "players_found": [],
+    "tracking_detected": true,
+    "events": [
+      "listen",
+      "Listen"
+    ],
+    "issues": [],
+    "score": "N/A",
+    "applicability": "Not applicable - No audio players found"
+  },
+  "nav_tracking": {
+    "nav_elements": 3,
+    "tracking_detected": false,
+    "events": [],
+    "issues": [
+      "Navigation elements found but no navigation click tracking detected."
+    ],
+    "score": 0,
+    "applicability": "Applicable - Navigation elements detected"
+  },
+  "localisation": {
+    "lang_detected": "en-US",
+    "hreflang_tags": [
+      "en-ca",
+      "fr-ca"
+    ],
+    "currency_symbols": [
+      "$"
+    ],
+    "issues": [],
+    "score": 80
+  },
+  "blocked_tags": [
+    {
+      "tag": "Failed network response",
+      "url": "https://s.pinimg.com/ct/lib/main.3c5b736e.js",
+      "status": 403
+    }
+  ],
+  "duplicate_tags": [],
+  "network_summary": {
+    "total_requests": 404,
+    "total_responses": 394,
+    "console_errors": [
+      {
+        "type": "warning",
+        "text": "Failed parsing 'srcset' attribute value since it has an unknown descriptor."
+      },
+      {
+        "type": "warning",
+        "text": "Dropped srcset candidate \"/is/image/content/dam/business-unit/whirlpool/en-us/pre-purchase/explore/promotions/homepage/labor-day/content-cards/FreeDelivery-Homepage-ContentCard\""
+      },
+      {
+        "type": "warning",
+        "text": "Accordion: container utilities at window.CQ.CoreComponents.container.utils are not available. This can lead to missing features. Ensure the core.wcm.components.commons.site.container client library is included on the page."
+      },
+      {
+        "type": "warning",
+        "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+      },
+      {
+        "type": "warning",
+        "text": "Validator \"visualMeter\" is already defined."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_EMPTY_RESPONSE"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      }
+    ]
+  },
+  "conditional_firing": {
+    "patterns": [
+      "Consent-related gating or Consent Mode signal detected."
+    ],
+    "issues": [],
+    "score": 80
+  },
+  "custom_events": [
+    "conversion"
+  ],
+  "performance_impact": {
+    "load_time_ms": 21274,
+    "script_count": 91,
+    "tag_script_count": 21,
+    "issues": [
+      "21 tag-related scripts loaded. Potential performance impact.",
+      "Page load time is 21274ms, above 5 seconds."
+    ],
+    "score": 40
+  },
+  "recommendations": [
+    "HIGH: Enable cross-domain linker configuration.",
+    "HIGH: Add form_submit or generate_lead tracking.",
+    "MEDIUM: Implement video start/progress/complete tracking.",
+    "HIGH: Complete GA4 ecommerce funnel event implementation.",
+    "LOW: Add navigation/menu click tracking for UX analysis."
+  ],
+  "ai_analysis": ""
+}

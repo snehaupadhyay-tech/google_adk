@@ -1,0 +1,181 @@
+{
+  "site_url": "https://www.evalueserve.com/",
+  "generated_at": "2026-11-02T16:10:35",
+  "website_type": "Universal / Corporate",
+  "pages_audited": 1,
+  "overall_score": 79,
+  "score_breakdown": {
+    "Website Type": "Universal / Corporate",
+    "Platform Coverage": 100,
+    "Tag Manager Coverage": 100,
+    "Consent Coverage": 100,
+    "DataLayer Coverage": 100,
+    "Journey Hit Rate": 50,
+    "Critical Issues": 0,
+    "High Issues": 1,
+    "Medium Issues": 0,
+    "Issue Penalty": 6,
+    "Overall Score": 79
+  },
+  "recommendations": [
+    {
+      "Priority": "High",
+      "Area": "Lead Tracking",
+      "Finding": "Form tracking gap found on 1 pages",
+      "Recommendation": "Implement form_start, form_submit and generate_lead."
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.evalueserve.com/",
+      "page_type": "Homepage",
+      "title": "Evalueserve | Domain-Led AI Services",
+      "http_status": 200,
+      "load_time_ms": 4782,
+      "detected_platforms": [
+        {
+          "platform": "Google Analytics 4",
+          "vendor": "Google",
+          "category": "Analytics",
+          "priority": "Critical",
+          "signals": [
+            "G-P211YWE2W1",
+            "google-analytics.com/g/collect",
+            "gtag("
+          ]
+        },
+        {
+          "platform": "Google Tag Manager",
+          "vendor": "Google",
+          "category": "Tag Management",
+          "priority": "Critical",
+          "signals": [
+            "GTM-KHBHRC",
+            "dataLayer.push",
+            "googletagmanager.com/gtm.js",
+            "window.dataLayer"
+          ]
+        },
+        {
+          "platform": "Cookiebot",
+          "vendor": "Usercentrics",
+          "category": "Consent Management",
+          "priority": "Critical",
+          "signals": [
+            "consent.cookiebot.com",
+            "cookiebot",
+            "cookieconsent"
+          ]
+        }
+      ],
+      "consent": {
+        "platform": "Cookiebot",
+        "policy_link_detected": true,
+        "consent_mode_signal_detected": true,
+        "potential_prefire_risk": false
+      },
+      "datalayer": {
+        "detected": true,
+        "push_count": 4,
+        "variables": [
+          "gtm.start"
+        ]
+      },
+      "forms": {
+        "forms_found": 1,
+        "form_tracking_signals": [],
+        "has_gap": true
+      },
+      "navigation": {
+        "nav_elements": 1,
+        "tracking_signals": [
+          "Navigation",
+          "navigation"
+        ],
+        "cta_candidates": [
+          {
+            "label": "Learn more about this provider",
+            "href": "https://www.cookiebot.com/goto/privacy-policy/"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://legal.hubspot.com/privacy-policy"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://business.safety.google/privacy/"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://www.spreaker.com/privacy"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://business.safety.google/privacy/"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://legal.hubspot.com/privacy-policy"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://www.spotify.com/uk/legal/privacy-policy/"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://business.safety.google/privacy/"
+          },
+          {
+            "label": "Learn more about this provider",
+            "href": "https://www.zoominfo.com/legal/privacy-policy"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/speak-to-expert/"
+          },
+          {
+            "label": "Contact Us",
+            "href": "https://www.evalueserve.com/speak-to-expert/"
+          }
+        ],
+        "has_gap": false
+      },
+      "ecommerce": {
+        "ecommerce_applicable": false,
+        "ga4_ecommerce_events_found": [],
+        "missing_if_applicable": []
+      },
+      "media": {
+        "videos_found": 0,
+        "audio_found": 0,
+        "video_tracking_signals": [],
+        "audio_tracking_signals": []
+      },
+      "downloads": {
+        "download_links_found": 0,
+        "examples": []
+      },
+      "performance": {
+        "load_time_ms": 4782,
+        "script_count": 33,
+        "tag_script_count": 2
+      },
+      "custom_events": [],
+      "issues": [
+        {
+          "severity": "HIGH",
+          "category": "Forms",
+          "issue": "Forms detected but no form tracking signal found",
+          "recommendation": "Implement form_start and form_submit or generate_lead tracking."
+        }
+      ],
+      "raw_network_count": 131
+    }
+  ],
+  "journey_events": [],
+  "discovered_urls": [
+    "https://www.evalueserve.com/"
+  ],
+  "network_logs": [],
+  "skipped_interactions": []
+}

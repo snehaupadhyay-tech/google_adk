@@ -1,0 +1,7 @@
+# sample_urls.txt — URLs for batch audit
+# Lines starting with # are ignored
+https://shopify.com
+https://hubspot.com
+https://nytimes.com
+https://nike.com
+https://salesforce.com

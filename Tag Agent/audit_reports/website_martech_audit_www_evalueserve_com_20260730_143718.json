@@ -1,0 +1,2528 @@
+[
+  {
+    "url": "https://www.evalueserve.com",
+    "audited_at": "2026-07-30T14:36:59",
+    "domain": "www.evalueserve.com",
+    "page_title": "Evalueserve | Domain-Led AI Services",
+    "health_score": 66,
+    "tags": [
+      {
+        "name": "Google Analytics 4",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: gtag(",
+          "js: g-background"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Google Universal Analytics",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "DEPRECATED",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Tag Manager",
+        "vendor": "Google",
+        "category": "Tag Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: noscript_style-inline-css\">\nhtml.optml_no_js img[data-opt-src] { display: none !",
+          "js: GTM-KHBHRC",
+          "js: dataLayer.push(",
+          "js: window.dataLayer"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Adobe Analytics",
+        "vendor": "Adobe",
+        "category": "Analytics",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Adobe Launch",
+        "vendor": "Adobe",
+        "category": "Tag Management",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Meta Pixel",
+        "vendor": "Meta",
+        "category": "Advertising",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Ads",
+        "vendor": "Google",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "LinkedIn Insight Tag",
+        "vendor": "LinkedIn",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft/Bing Ads",
+        "vendor": "Microsoft",
+        "category": "Advertising",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "HubSpot",
+        "vendor": "HubSpot",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: _hsq.push(",
+          "js: hsq"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Hotjar",
+        "vendor": "Hotjar",
+        "category": "CRO / Session Recording",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft Clarity",
+        "vendor": "Microsoft",
+        "category": "CRO / Session Recording",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Segment",
+        "vendor": "Twilio",
+        "category": "CDP",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "OneTrust",
+        "vendor": "OneTrust",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Cookiebot",
+        "vendor": "Usercentrics",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: consent.cookiebot.com/uc.js"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Marketo",
+        "vendor": "Adobe/Marketo",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Pardot",
+        "vendor": "Salesforce",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      }
+    ],
+    "issues": [
+      {
+        "severity": "HIGH",
+        "category": "Cross-Domain",
+        "tag": "GA4 Linker",
+        "issue": "Cross-domain links found (16) but no linker configuration detected.",
+        "recommendation": "Configure cross-domain linker settings.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "Form Tracking",
+        "tag": "Forms",
+        "issue": "2 form(s) detected but no form_submit/generate_lead event found.",
+        "recommendation": "Add form_submit or generate_lead events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "DataLayer",
+        "tag": "dataLayer",
+        "issue": "dataLayer detected but no dataLayer.push() calls found.",
+        "recommendation": "Implement structured dataLayer events.",
+        "evidence": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Navigation",
+        "tag": "Nav Clicks",
+        "issue": "Navigation elements found but no navigation click tracking detected.",
+        "recommendation": "Add navigation/menu click tracking.",
+        "evidence": ""
+      }
+    ],
+    "spa_detected": false,
+    "spa_audit": {
+      "detected": false,
+      "framework": "Unknown",
+      "issues": [],
+      "recommendations": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No SPA framework detected"
+    },
+    "cross_domain_tracking": {
+      "base_domain": "www.evalueserve.com",
+      "linked_domains": [
+        "iprd.evalueserve.com",
+        "searchstream.evalueserve.com",
+        "channels.evalueserve.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "twitter.com",
+        "health1.aetna.com",
+        "x.com"
+      ],
+      "cross_domain_links": [
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://iprd.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/ip-and-rd-market-solutions/",
+        "https://iprd.evalueserve.com/solutions/ip-consulting/",
+        "https://iprd.evalueserve.com/solutions/ip-process-redesign/",
+        "https://searchstream.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://channels.evalueserve.com/guide-to-workplace-transformation-with-gemini-enterprise",
+        "https://www.linkedin.com/company/evalueserve",
+        "https://www.facebook.com/pages/Evalueserve/959196870761417",
+        "https://twitter.com/EvalueserveNews",
+        "https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?reportingEntityType=Third%20Party%20Administrator_96732088&lock=true",
+        "https://x.com/intent/tweet?via=%username%&url=%url%&text=%prefix%%text%%suffix%&hashtags=%hashtags%",
+        "https://www.linkedin.com/sharing/share-offsite/?mini=true&url=%url%&title=%title%"
+      ],
+      "linker_detected": false,
+      "issues": [
+        "Cross-domain links found (16) but no linker configuration detected."
+      ],
+      "score": 50
+    },
+    "consent_layer": {
+      "platform": "Cookiebot",
+      "gdpr_banner_present": true,
+      "cookie_policy_link": true,
+      "issues": [],
+      "score": 90
+    },
+    "datalayer_health": {
+      "detected": true,
+      "pushes_found": 0,
+      "variables": [],
+      "issues": [
+        "dataLayer detected but no dataLayer.push() calls found."
+      ],
+      "score": 55
+    },
+    "ecommerce_audit": {
+      "detected": false,
+      "platform": "Not applicable",
+      "events": [],
+      "missing_events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - Page does not appear to be ecommerce"
+    },
+    "form_tracking": {
+      "forms_found": 2,
+      "forms_with_tracking": 0,
+      "tracked_events": [],
+      "issues": [
+        "2 form(s) detected but no form_submit/generate_lead event found."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Gap"
+    },
+    "scroll_tracking": {
+      "detected": true,
+      "thresholds": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "issues": [],
+      "score": 80,
+      "applicability": "Applicable - Scroll tracking signal detected"
+    },
+    "video_tracking": {
+      "players_found": [],
+      "tracking_detected": false,
+      "events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No video players found"
+    },
+    "audio_tracking": {
+      "players_found": [],
+      "tracking_detected": true,
+      "events": [
+        "listen",
+        "Listen"
+      ],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No audio players found"
+    },
+    "nav_tracking": {
+      "nav_elements": 3,
+      "tracking_detected": false,
+      "events": [],
+      "issues": [
+        "Navigation elements found but no navigation click tracking detected."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Navigation elements detected"
+    },
+    "localisation": {
+      "lang_detected": "en-US",
+      "hreflang_tags": [],
+      "currency_symbols": [
+        "$"
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "blocked_tags": [],
+    "duplicate_tags": [],
+    "network_summary": {
+      "total_requests": 0,
+      "total_responses": 0,
+      "console_errors": []
+    },
+    "conditional_firing": {
+      "patterns": [
+        "Consent-related gating or Consent Mode signal detected."
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "custom_events": [],
+    "performance_impact": {
+      "load_time_ms": 428,
+      "script_count": 34,
+      "tag_script_count": 0,
+      "issues": [],
+      "score": 80
+    },
+    "recommendations": [
+      "HIGH: Enable cross-domain linker configuration.",
+      "HIGH: Add form_submit or generate_lead tracking.",
+      "LOW: Add navigation/menu click tracking for UX analysis."
+    ]
+  },
+  {
+    "url": "https://www.evalueserve.com/case-studies",
+    "audited_at": "2026-07-30T14:37:02",
+    "domain": "www.evalueserve.com",
+    "page_title": "Client Stories - Evalueserve - Case Studies",
+    "health_score": 66,
+    "tags": [
+      {
+        "name": "Google Analytics 4",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: gtag(",
+          "js: g-background"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Google Universal Analytics",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "DEPRECATED",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Tag Manager",
+        "vendor": "Google",
+        "category": "Tag Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: noscript_style-inline-css\">\nhtml.optml_no_js img[data-opt-src] { display: none !",
+          "js: GTM-KHBHRC",
+          "js: dataLayer.push(",
+          "js: window.dataLayer"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Adobe Analytics",
+        "vendor": "Adobe",
+        "category": "Analytics",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Adobe Launch",
+        "vendor": "Adobe",
+        "category": "Tag Management",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Meta Pixel",
+        "vendor": "Meta",
+        "category": "Advertising",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Ads",
+        "vendor": "Google",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "LinkedIn Insight Tag",
+        "vendor": "LinkedIn",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft/Bing Ads",
+        "vendor": "Microsoft",
+        "category": "Advertising",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "HubSpot",
+        "vendor": "HubSpot",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: _hsq.push(",
+          "js: hsq"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Hotjar",
+        "vendor": "Hotjar",
+        "category": "CRO / Session Recording",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft Clarity",
+        "vendor": "Microsoft",
+        "category": "CRO / Session Recording",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Segment",
+        "vendor": "Twilio",
+        "category": "CDP",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "OneTrust",
+        "vendor": "OneTrust",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Cookiebot",
+        "vendor": "Usercentrics",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: consent.cookiebot.com/uc.js"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Marketo",
+        "vendor": "Adobe/Marketo",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Pardot",
+        "vendor": "Salesforce",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      }
+    ],
+    "issues": [
+      {
+        "severity": "HIGH",
+        "category": "Cross-Domain",
+        "tag": "GA4 Linker",
+        "issue": "Cross-domain links found (15) but no linker configuration detected.",
+        "recommendation": "Configure cross-domain linker settings.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "Form Tracking",
+        "tag": "Forms",
+        "issue": "2 form(s) detected but no form_submit/generate_lead event found.",
+        "recommendation": "Add form_submit or generate_lead events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "DataLayer",
+        "tag": "dataLayer",
+        "issue": "dataLayer detected but no dataLayer.push() calls found.",
+        "recommendation": "Implement structured dataLayer events.",
+        "evidence": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Navigation",
+        "tag": "Nav Clicks",
+        "issue": "Navigation elements found but no navigation click tracking detected.",
+        "recommendation": "Add navigation/menu click tracking.",
+        "evidence": ""
+      }
+    ],
+    "spa_detected": false,
+    "spa_audit": {
+      "detected": false,
+      "framework": "Unknown",
+      "issues": [],
+      "recommendations": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No SPA framework detected"
+    },
+    "cross_domain_tracking": {
+      "base_domain": "www.evalueserve.com",
+      "linked_domains": [
+        "iprd.evalueserve.com",
+        "searchstream.evalueserve.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "twitter.com",
+        "health1.aetna.com",
+        "x.com"
+      ],
+      "cross_domain_links": [
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://iprd.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/ip-and-rd-market-solutions/",
+        "https://iprd.evalueserve.com/solutions/ip-consulting/",
+        "https://iprd.evalueserve.com/solutions/ip-process-redesign/",
+        "https://searchstream.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://www.linkedin.com/company/evalueserve",
+        "https://www.facebook.com/pages/Evalueserve/959196870761417",
+        "https://twitter.com/EvalueserveNews",
+        "https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?reportingEntityType=Third%20Party%20Administrator_96732088&lock=true",
+        "https://x.com/intent/tweet?via=%username%&url=%url%&text=%prefix%%text%%suffix%&hashtags=%hashtags%",
+        "https://www.linkedin.com/sharing/share-offsite/?mini=true&url=%url%&title=%title%"
+      ],
+      "linker_detected": false,
+      "issues": [
+        "Cross-domain links found (15) but no linker configuration detected."
+      ],
+      "score": 50
+    },
+    "consent_layer": {
+      "platform": "Cookiebot",
+      "gdpr_banner_present": true,
+      "cookie_policy_link": true,
+      "issues": [],
+      "score": 90
+    },
+    "datalayer_health": {
+      "detected": true,
+      "pushes_found": 0,
+      "variables": [],
+      "issues": [
+        "dataLayer detected but no dataLayer.push() calls found."
+      ],
+      "score": 55
+    },
+    "ecommerce_audit": {
+      "detected": false,
+      "platform": "Not applicable",
+      "events": [],
+      "missing_events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - Page does not appear to be ecommerce"
+    },
+    "form_tracking": {
+      "forms_found": 2,
+      "forms_with_tracking": 0,
+      "tracked_events": [],
+      "issues": [
+        "2 form(s) detected but no form_submit/generate_lead event found."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Gap"
+    },
+    "scroll_tracking": {
+      "detected": true,
+      "thresholds": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "issues": [],
+      "score": 80,
+      "applicability": "Applicable - Scroll tracking signal detected"
+    },
+    "video_tracking": {
+      "players_found": [],
+      "tracking_detected": false,
+      "events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No video players found"
+    },
+    "audio_tracking": {
+      "players_found": [],
+      "tracking_detected": true,
+      "events": [
+        "listen",
+        "Listen"
+      ],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No audio players found"
+    },
+    "nav_tracking": {
+      "nav_elements": 3,
+      "tracking_detected": false,
+      "events": [],
+      "issues": [
+        "Navigation elements found but no navigation click tracking detected."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Navigation elements detected"
+    },
+    "localisation": {
+      "lang_detected": "en-US",
+      "hreflang_tags": [],
+      "currency_symbols": [
+        "$"
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "blocked_tags": [],
+    "duplicate_tags": [],
+    "network_summary": {
+      "total_requests": 0,
+      "total_responses": 0,
+      "console_errors": []
+    },
+    "conditional_firing": {
+      "patterns": [
+        "Consent-related gating or Consent Mode signal detected."
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "custom_events": [],
+    "performance_impact": {
+      "load_time_ms": 1351,
+      "script_count": 35,
+      "tag_script_count": 0,
+      "issues": [],
+      "score": 80
+    },
+    "recommendations": [
+      "HIGH: Enable cross-domain linker configuration.",
+      "HIGH: Add form_submit or generate_lead tracking.",
+      "LOW: Add navigation/menu click tracking for UX analysis."
+    ]
+  },
+  {
+    "url": "https://www.evalueserve.com/our-values",
+    "audited_at": "2026-07-30T14:37:07",
+    "domain": "www.evalueserve.com",
+    "page_title": "Core Values | Evalueserve",
+    "health_score": 66,
+    "tags": [
+      {
+        "name": "Google Analytics 4",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: gtag("
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Google Universal Analytics",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "DEPRECATED",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Tag Manager",
+        "vendor": "Google",
+        "category": "Tag Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: noscript_style-inline-css\">\nhtml.optml_no_js img[data-opt-src] { display: none !",
+          "js: GTM-KHBHRC",
+          "js: dataLayer.push(",
+          "js: window.dataLayer"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Adobe Analytics",
+        "vendor": "Adobe",
+        "category": "Analytics",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Adobe Launch",
+        "vendor": "Adobe",
+        "category": "Tag Management",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Meta Pixel",
+        "vendor": "Meta",
+        "category": "Advertising",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Ads",
+        "vendor": "Google",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "LinkedIn Insight Tag",
+        "vendor": "LinkedIn",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft/Bing Ads",
+        "vendor": "Microsoft",
+        "category": "Advertising",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "HubSpot",
+        "vendor": "HubSpot",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: _hsq.push(",
+          "js: hsq"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Hotjar",
+        "vendor": "Hotjar",
+        "category": "CRO / Session Recording",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft Clarity",
+        "vendor": "Microsoft",
+        "category": "CRO / Session Recording",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Segment",
+        "vendor": "Twilio",
+        "category": "CDP",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "OneTrust",
+        "vendor": "OneTrust",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Cookiebot",
+        "vendor": "Usercentrics",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: consent.cookiebot.com/uc.js"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Marketo",
+        "vendor": "Adobe/Marketo",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Pardot",
+        "vendor": "Salesforce",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      }
+    ],
+    "issues": [
+      {
+        "severity": "HIGH",
+        "category": "Cross-Domain",
+        "tag": "GA4 Linker",
+        "issue": "Cross-domain links found (15) but no linker configuration detected.",
+        "recommendation": "Configure cross-domain linker settings.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "Form Tracking",
+        "tag": "Forms",
+        "issue": "2 form(s) detected but no form_submit/generate_lead event found.",
+        "recommendation": "Add form_submit or generate_lead events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "DataLayer",
+        "tag": "dataLayer",
+        "issue": "dataLayer detected but no dataLayer.push() calls found.",
+        "recommendation": "Implement structured dataLayer events.",
+        "evidence": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Navigation",
+        "tag": "Nav Clicks",
+        "issue": "Navigation elements found but no navigation click tracking detected.",
+        "recommendation": "Add navigation/menu click tracking.",
+        "evidence": ""
+      }
+    ],
+    "spa_detected": false,
+    "spa_audit": {
+      "detected": false,
+      "framework": "Unknown",
+      "issues": [],
+      "recommendations": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No SPA framework detected"
+    },
+    "cross_domain_tracking": {
+      "base_domain": "www.evalueserve.com",
+      "linked_domains": [
+        "iprd.evalueserve.com",
+        "searchstream.evalueserve.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "twitter.com",
+        "health1.aetna.com",
+        "x.com"
+      ],
+      "cross_domain_links": [
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://iprd.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/ip-and-rd-market-solutions/",
+        "https://iprd.evalueserve.com/solutions/ip-consulting/",
+        "https://iprd.evalueserve.com/solutions/ip-process-redesign/",
+        "https://searchstream.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://www.linkedin.com/company/evalueserve",
+        "https://www.facebook.com/pages/Evalueserve/959196870761417",
+        "https://twitter.com/EvalueserveNews",
+        "https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?reportingEntityType=Third%20Party%20Administrator_96732088&lock=true",
+        "https://x.com/intent/tweet?via=%username%&url=%url%&text=%prefix%%text%%suffix%&hashtags=%hashtags%",
+        "https://www.linkedin.com/sharing/share-offsite/?mini=true&url=%url%&title=%title%"
+      ],
+      "linker_detected": false,
+      "issues": [
+        "Cross-domain links found (15) but no linker configuration detected."
+      ],
+      "score": 50
+    },
+    "consent_layer": {
+      "platform": "Cookiebot",
+      "gdpr_banner_present": true,
+      "cookie_policy_link": true,
+      "issues": [],
+      "score": 90
+    },
+    "datalayer_health": {
+      "detected": true,
+      "pushes_found": 0,
+      "variables": [],
+      "issues": [
+        "dataLayer detected but no dataLayer.push() calls found."
+      ],
+      "score": 55
+    },
+    "ecommerce_audit": {
+      "detected": false,
+      "platform": "Not applicable",
+      "events": [],
+      "missing_events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - Page does not appear to be ecommerce"
+    },
+    "form_tracking": {
+      "forms_found": 2,
+      "forms_with_tracking": 0,
+      "tracked_events": [],
+      "issues": [
+        "2 form(s) detected but no form_submit/generate_lead event found."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Gap"
+    },
+    "scroll_tracking": {
+      "detected": true,
+      "thresholds": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "issues": [],
+      "score": 80,
+      "applicability": "Applicable - Scroll tracking signal detected"
+    },
+    "video_tracking": {
+      "players_found": [],
+      "tracking_detected": false,
+      "events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No video players found"
+    },
+    "audio_tracking": {
+      "players_found": [],
+      "tracking_detected": true,
+      "events": [
+        "listen",
+        "Listen"
+      ],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No audio players found"
+    },
+    "nav_tracking": {
+      "nav_elements": 3,
+      "tracking_detected": false,
+      "events": [],
+      "issues": [
+        "Navigation elements found but no navigation click tracking detected."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Navigation elements detected"
+    },
+    "localisation": {
+      "lang_detected": "en-US",
+      "hreflang_tags": [],
+      "currency_symbols": [
+        "$"
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "blocked_tags": [],
+    "duplicate_tags": [],
+    "network_summary": {
+      "total_requests": 0,
+      "total_responses": 0,
+      "console_errors": []
+    },
+    "conditional_firing": {
+      "patterns": [
+        "Consent-related gating or Consent Mode signal detected."
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "custom_events": [],
+    "performance_impact": {
+      "load_time_ms": 3506,
+      "script_count": 33,
+      "tag_script_count": 0,
+      "issues": [],
+      "score": 80
+    },
+    "recommendations": [
+      "HIGH: Enable cross-domain linker configuration.",
+      "HIGH: Add form_submit or generate_lead tracking.",
+      "LOW: Add navigation/menu click tracking for UX analysis."
+    ]
+  },
+  {
+    "url": "https://www.evalueserve.com/demand-forecasting",
+    "audited_at": "2026-07-30T14:37:12",
+    "domain": "www.evalueserve.com",
+    "page_title": "Demand Forecasting - Evalueserve",
+    "health_score": 66,
+    "tags": [
+      {
+        "name": "Google Analytics 4",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: gtag("
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Google Universal Analytics",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "DEPRECATED",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Tag Manager",
+        "vendor": "Google",
+        "category": "Tag Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: noscript_style-inline-css\">\nhtml.optml_no_js img[data-opt-src] { display: none !",
+          "js: GTM-KHBHRC",
+          "js: dataLayer.push(",
+          "js: window.dataLayer"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Adobe Analytics",
+        "vendor": "Adobe",
+        "category": "Analytics",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Adobe Launch",
+        "vendor": "Adobe",
+        "category": "Tag Management",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Meta Pixel",
+        "vendor": "Meta",
+        "category": "Advertising",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Ads",
+        "vendor": "Google",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "LinkedIn Insight Tag",
+        "vendor": "LinkedIn",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft/Bing Ads",
+        "vendor": "Microsoft",
+        "category": "Advertising",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "HubSpot",
+        "vendor": "HubSpot",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: _hsq.push(",
+          "js: hsq"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Hotjar",
+        "vendor": "Hotjar",
+        "category": "CRO / Session Recording",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft Clarity",
+        "vendor": "Microsoft",
+        "category": "CRO / Session Recording",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Segment",
+        "vendor": "Twilio",
+        "category": "CDP",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "OneTrust",
+        "vendor": "OneTrust",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Cookiebot",
+        "vendor": "Usercentrics",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: consent.cookiebot.com/uc.js"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Marketo",
+        "vendor": "Adobe/Marketo",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Pardot",
+        "vendor": "Salesforce",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      }
+    ],
+    "issues": [
+      {
+        "severity": "HIGH",
+        "category": "Cross-Domain",
+        "tag": "GA4 Linker",
+        "issue": "Cross-domain links found (15) but no linker configuration detected.",
+        "recommendation": "Configure cross-domain linker settings.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "Form Tracking",
+        "tag": "Forms",
+        "issue": "2 form(s) detected but no form_submit/generate_lead event found.",
+        "recommendation": "Add form_submit or generate_lead events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "DataLayer",
+        "tag": "dataLayer",
+        "issue": "dataLayer detected but no dataLayer.push() calls found.",
+        "recommendation": "Implement structured dataLayer events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "E-Commerce",
+        "tag": "GA4 Ecommerce",
+        "issue": "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase",
+        "recommendation": "Implement full ecommerce event schema.",
+        "evidence": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Navigation",
+        "tag": "Nav Clicks",
+        "issue": "Navigation elements found but no navigation click tracking detected.",
+        "recommendation": "Add navigation/menu click tracking.",
+        "evidence": ""
+      }
+    ],
+    "spa_detected": false,
+    "spa_audit": {
+      "detected": false,
+      "framework": "Unknown",
+      "issues": [],
+      "recommendations": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No SPA framework detected"
+    },
+    "cross_domain_tracking": {
+      "base_domain": "www.evalueserve.com",
+      "linked_domains": [
+        "iprd.evalueserve.com",
+        "searchstream.evalueserve.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "twitter.com",
+        "health1.aetna.com",
+        "x.com"
+      ],
+      "cross_domain_links": [
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://iprd.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/ip-and-rd-market-solutions/",
+        "https://iprd.evalueserve.com/solutions/ip-consulting/",
+        "https://iprd.evalueserve.com/solutions/ip-process-redesign/",
+        "https://searchstream.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://www.linkedin.com/company/evalueserve",
+        "https://www.facebook.com/pages/Evalueserve/959196870761417",
+        "https://twitter.com/EvalueserveNews",
+        "https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?reportingEntityType=Third%20Party%20Administrator_96732088&lock=true",
+        "https://x.com/intent/tweet?via=%username%&url=%url%&text=%prefix%%text%%suffix%&hashtags=%hashtags%",
+        "https://www.linkedin.com/sharing/share-offsite/?mini=true&url=%url%&title=%title%"
+      ],
+      "linker_detected": false,
+      "issues": [
+        "Cross-domain links found (15) but no linker configuration detected."
+      ],
+      "score": 50
+    },
+    "consent_layer": {
+      "platform": "Cookiebot",
+      "gdpr_banner_present": true,
+      "cookie_policy_link": true,
+      "issues": [],
+      "score": 90
+    },
+    "datalayer_health": {
+      "detected": true,
+      "pushes_found": 0,
+      "variables": [],
+      "issues": [
+        "dataLayer detected but no dataLayer.push() calls found."
+      ],
+      "score": 55
+    },
+    "ecommerce_audit": {
+      "detected": true,
+      "platform": "Unknown",
+      "events": [],
+      "missing_events": [
+        "view_item",
+        "add_to_cart",
+        "view_cart",
+        "begin_checkout",
+        "add_shipping_info",
+        "add_payment_info",
+        "purchase"
+      ],
+      "issues": [
+        "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase"
+      ],
+      "score": 0,
+      "applicability": "Applicable - Ecommerce journey detected"
+    },
+    "form_tracking": {
+      "forms_found": 2,
+      "forms_with_tracking": 0,
+      "tracked_events": [],
+      "issues": [
+        "2 form(s) detected but no form_submit/generate_lead event found."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Gap"
+    },
+    "scroll_tracking": {
+      "detected": true,
+      "thresholds": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "issues": [],
+      "score": 80,
+      "applicability": "Applicable - Scroll tracking signal detected"
+    },
+    "video_tracking": {
+      "players_found": [],
+      "tracking_detected": false,
+      "events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No video players found"
+    },
+    "audio_tracking": {
+      "players_found": [],
+      "tracking_detected": true,
+      "events": [
+        "listen",
+        "Listen"
+      ],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No audio players found"
+    },
+    "nav_tracking": {
+      "nav_elements": 3,
+      "tracking_detected": false,
+      "events": [],
+      "issues": [
+        "Navigation elements found but no navigation click tracking detected."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Navigation elements detected"
+    },
+    "localisation": {
+      "lang_detected": "en-US",
+      "hreflang_tags": [],
+      "currency_symbols": [
+        "$"
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "blocked_tags": [],
+    "duplicate_tags": [],
+    "network_summary": {
+      "total_requests": 0,
+      "total_responses": 0,
+      "console_errors": []
+    },
+    "conditional_firing": {
+      "patterns": [
+        "Consent-related gating or Consent Mode signal detected."
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "custom_events": [],
+    "performance_impact": {
+      "load_time_ms": 3432,
+      "script_count": 34,
+      "tag_script_count": 0,
+      "issues": [],
+      "score": 80
+    },
+    "recommendations": [
+      "HIGH: Enable cross-domain linker configuration.",
+      "HIGH: Add form_submit or generate_lead tracking.",
+      "HIGH: Complete GA4 ecommerce funnel event implementation.",
+      "LOW: Add navigation/menu click tracking for UX analysis."
+    ]
+  },
+  {
+    "url": "https://www.evalueserve.com/evalueserve-in-the-news",
+    "audited_at": "2026-07-30T14:37:18",
+    "domain": "www.evalueserve.com",
+    "page_title": "Latest Evalueserve News",
+    "health_score": 66,
+    "tags": [
+      {
+        "name": "Google Analytics 4",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: gtag("
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Google Universal Analytics",
+        "vendor": "Google",
+        "category": "Analytics",
+        "priority": "DEPRECATED",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "Universal Analytics is deprecated. Remove or migrate to GA4.",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Tag Manager",
+        "vendor": "Google",
+        "category": "Tag Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: noscript_style-inline-css\">\nhtml.optml_no_js img[data-opt-src] { display: none !",
+          "js: GTM-KHBHRC",
+          "js: dataLayer.push(",
+          "js: window.dataLayer"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Adobe Analytics",
+        "vendor": "Adobe",
+        "category": "Analytics",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Adobe Launch",
+        "vendor": "Adobe",
+        "category": "Tag Management",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Meta Pixel",
+        "vendor": "Meta",
+        "category": "Advertising",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Google Ads",
+        "vendor": "Google",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "LinkedIn Insight Tag",
+        "vendor": "LinkedIn",
+        "category": "Advertising",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft/Bing Ads",
+        "vendor": "Microsoft",
+        "category": "Advertising",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "HubSpot",
+        "vendor": "HubSpot",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "FOUND",
+        "matched_signals": [
+          "js: _hsq.push(",
+          "js: hsq"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Hotjar",
+        "vendor": "Hotjar",
+        "category": "CRO / Session Recording",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Microsoft Clarity",
+        "vendor": "Microsoft",
+        "category": "CRO / Session Recording",
+        "priority": "MEDIUM",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Segment",
+        "vendor": "Twilio",
+        "category": "CDP",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "HIGH",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "OneTrust",
+        "vendor": "OneTrust",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Cookiebot",
+        "vendor": "Usercentrics",
+        "category": "Consent Management",
+        "priority": "CRITICAL",
+        "status": "FOUND",
+        "matched_signals": [
+          "script: consent.cookiebot.com/uc.js"
+        ],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "LOW",
+        "deprecation_note": "",
+        "score": 90,
+        "notes": []
+      },
+      {
+        "name": "Marketo",
+        "vendor": "Adobe/Marketo",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      },
+      {
+        "name": "Pardot",
+        "vendor": "Salesforce",
+        "category": "Marketing Automation",
+        "priority": "HIGH",
+        "status": "MISSING",
+        "matched_signals": [],
+        "param_issues": [],
+        "firing_issues": [],
+        "network_requests": [],
+        "gdpr_risk": "MEDIUM",
+        "deprecation_note": "",
+        "score": 0,
+        "notes": []
+      }
+    ],
+    "issues": [
+      {
+        "severity": "HIGH",
+        "category": "Form Tracking",
+        "tag": "Forms",
+        "issue": "2 form(s) detected but no form_submit/generate_lead event found.",
+        "recommendation": "Add form_submit or generate_lead events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "DataLayer",
+        "tag": "dataLayer",
+        "issue": "dataLayer detected but no dataLayer.push() calls found.",
+        "recommendation": "Implement structured dataLayer events.",
+        "evidence": ""
+      },
+      {
+        "severity": "HIGH",
+        "category": "E-Commerce",
+        "tag": "GA4 Ecommerce",
+        "issue": "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase",
+        "recommendation": "Implement full ecommerce event schema.",
+        "evidence": ""
+      },
+      {
+        "severity": "LOW",
+        "category": "Navigation",
+        "tag": "Nav Clicks",
+        "issue": "Navigation elements found but no navigation click tracking detected.",
+        "recommendation": "Add navigation/menu click tracking.",
+        "evidence": ""
+      }
+    ],
+    "spa_detected": false,
+    "spa_audit": {
+      "detected": false,
+      "framework": "Unknown",
+      "issues": [],
+      "recommendations": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No SPA framework detected"
+    },
+    "cross_domain_tracking": {
+      "base_domain": "www.evalueserve.com",
+      "linked_domains": [
+        "iprd.evalueserve.com",
+        "searchstream.evalueserve.com",
+        "www.prweb.com",
+        "www.analyticsinsight.net",
+        "www.expresscomputer.in",
+        "cio.economictimes.indiatimes.com",
+        "analyticsindiamag.com",
+        "www.sentinelassam.com",
+        "www.nbdpress.com",
+        "cfo.economictimes.indiatimes.com",
+        "www.youtube.com",
+        "citynews.ro",
+        "www.napocanews.ro",
+        "web.jinfo.com",
+        "www.siliconindiamagazine.com",
+        "www.peoplematters.in",
+        "businessworld.in",
+        "www.cioreviewindia.com",
+        "www.whatech.com",
+        "www.machinelearningtribune.com",
+        "feminisminindia.com",
+        "www.hindustantimes.com",
+        "www.openpr.com",
+        "www.finanznachrichten.de",
+        "www.cio.in",
+        "www.reuters.com",
+        "www.tmcnet.com",
+        "www.finance-monthly.com",
+        "www.businesswire.com",
+        "everyday-mba.com",
+        "www.thoughtleadersllc.com",
+        "www.businessinformationreview.org.uk",
+        "customers.microsoft.com",
+        "predictiveroi.com",
+        "www.linkedin.com",
+        "www.facebook.com",
+        "twitter.com",
+        "health1.aetna.com",
+        "x.com"
+      ],
+      "cross_domain_links": [
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://iprd.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/ip-and-rd-market-solutions/",
+        "https://iprd.evalueserve.com/solutions/ip-consulting/",
+        "https://iprd.evalueserve.com/solutions/ip-process-redesign/",
+        "https://searchstream.evalueserve.com/",
+        "https://iprd.evalueserve.com/solutions/innovation-rd-intelligence/",
+        "https://iprd.evalueserve.com/solutions/toxicology-consulting-service/",
+        "https://www.prweb.com/releases/evalueserve_expands_operations_in_europe_by_opening_new_office_in_bucharest_romania/prweb17876717.htm",
+        "https://www.prweb.com/releases/evalueserve_expands_operations_in_europe_by_opening_new_office_in_bucharest_romania/prweb17876717.htm",
+        "https://www.analyticsinsight.net/top-100-companies-for-data-scientists-in-india/",
+        "https://www.analyticsinsight.net/top-100-companies-for-data-scientists-in-india/",
+        "https://www.prweb.com/releases/evalueserve_launches_insightsfirst_lens_on_sustainability_a_knowledge_services_platform_providing_360_degree_view_on_sustainability/prweb17762770.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_insightsfirst_lens_on_sustainability_a_knowledge_services_platform_providing_360_degree_view_on_sustainability/prweb17762770.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_new_enhancements_to_spreadsmart_a_digital_platform_that_extracts_data_from_financial_statements_for_commercial_banks_underwriting_process/prweb17696789.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_new_enhancements_to_spreadsmart_a_digital_platform_that_extracts_data_from_financial_statements_for_commercial_banks_underwriting_process/prweb17696789.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_brand_new_updates_to_insightloupe_an_ip_and_r_d_intelligent_research_platform/prweb17680101.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_brand_new_updates_to_insightloupe_an_ip_and_r_d_intelligent_research_platform/prweb17680101.htm",
+        "https://www.prweb.com/releases/evalueserve_a_global_analytics_consultant_celebrates_20th_year_anniversary/prweb17608146.htm",
+        "https://www.prweb.com/releases/evalueserve_a_global_analytics_consultant_celebrates_20th_year_anniversary/prweb17608146.htm",
+        "https://www.prweb.com/releases/evalueserve_partners_with_tada_cognitive_solutions_to_help_clients_digitize_their_supply_chain/prweb17582455.htm",
+        "https://www.prweb.com/releases/evalueserve_partners_with_tada_cognitive_solutions_to_help_clients_digitize_their_supply_chain/prweb17582455.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_publishwise_an_intelligent_content_management_platform/prweb17240480.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_publishwise_an_intelligent_content_management_platform/prweb17240480.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_comprehensive_global_recovery_index_based_on_healthcare_social_and_work_resumption_indicators/prweb17199944.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_comprehensive_global_recovery_index_based_on_healthcare_social_and_work_resumption_indicators/prweb17199944.htm",
+        "https://www.expresscomputer.in/cloud/covid-19-evalueserve-and-vmware-follow-a-robust-policy/57084/",
+        "https://www.expresscomputer.in/cloud/covid-19-evalueserve-and-vmware-follow-a-robust-policy/57084/",
+        "https://cio.economictimes.indiatimes.com/news/strategy-and-management/covid-19-is-an-opportunity-for-us-to-expand-globally-evalueserve/76128301",
+        "https://cio.economictimes.indiatimes.com/news/strategy-and-management/covid-19-is-an-opportunity-for-us-to-expand-globally-evalueserve/76128301",
+        "https://analyticsindiamag.com/11-best-firms-in-india-for-data-scientists-to-work-for-2020/",
+        "https://analyticsindiamag.com/11-best-firms-in-india-for-data-scientists-to-work-for-2020/",
+        "https://www.prweb.com/releases/evalueserve_partners_with_encompass_to_provide_modular_automation_in_kyc/prweb17109340.htm",
+        "https://www.prweb.com/releases/evalueserve_partners_with_encompass_to_provide_modular_automation_in_kyc/prweb17109340.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_new_updates_to_spreadsmart_an_intelligent_financial_data_extraction_platform/prweb17104033.htm",
+        "https://www.prweb.com/releases/evalueserve_launches_new_updates_to_spreadsmart_an_intelligent_financial_data_extraction_platform/prweb17104033.htm",
+        "https://www.prweb.com/releases/evalueserve_announces_collaboration_with_automation_anywhere_to_strengthen_mind_machine_portfolio/prweb16745576.htm",
+        "https://www.prweb.com/releases/evalueserve_announces_collaboration_with_automation_anywhere_to_strengthen_mind_machine_portfolio/prweb16745576.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_enhancements_to_insightsfirst_a_market_and_competitive_intelligence_platform/prweb16726553.htm",
+        "https://www.prweb.com/releases/evalueserve_releases_enhancements_to_insightsfirst_a_market_and_competitive_intelligence_platform/prweb16726553.htm",
+        "https://www.sentinelassam.com/news/iim-shillong-conducts-session-on-managing-businesses-in-india-china/",
+        "https://www.sentinelassam.com/news/iim-shillong-conducts-session-on-managing-businesses-in-india-china/",
+        "https://www.nbdpress.com/articles/2018-08-16/5168.html",
+        "https://www.nbdpress.com/articles/2018-08-16/5168.html",
+        "https://cfo.economictimes.indiatimes.com/news/appropriate-use-of-cbc-reports-a-key-concern-for-mncs/65311539",
+        "https://cfo.economictimes.indiatimes.com/news/appropriate-use-of-cbc-reports-a-key-concern-for-mncs/65311539",
+        "https://www.youtube.com/watch?v=rJ5zNPAu0W4",
+        "https://www.youtube.com/watch?v=rJ5zNPAu0W4",
+        "https://citynews.ro/din-oras/10-copii-din-satele-clujului-vor-descoperi-orasul-prin-obiectiv-1291905",
+        "https://citynews.ro/din-oras/10-copii-din-satele-clujului-vor-descoperi-orasul-prin-obiectiv-1291905",
+        "https://www.napocanews.ro/2018/08/10-copii-din-mediul-rural-vor-descoperi-orasul-cluj-napoca-prin-obiectiv.html",
+        "https://www.napocanews.ro/2018/08/10-copii-din-mediul-rural-vor-descoperi-orasul-cluj-napoca-prin-obiectiv.html",
+        "https://web.jinfo.com/go/sub/article/74308?kui=2ukKWsKmamQN61COjAQ9Tw",
+        "https://web.jinfo.com/go/sub/article/74308?kui=2ukKWsKmamQN61COjAQ9Tw",
+        "https://www.siliconindiamagazine.com/magazine/analytics-consultants-special-may-2018/#page=20",
+        "https://www.siliconindiamagazine.com/magazine/analytics-consultants-special-may-2018/#page=20",
+        "https://www.peoplematters.in/article/technology/how-hr-at-a-global-service-provider-is-leading-digital-transformation-17927",
+        "https://www.peoplematters.in/article/technology/how-hr-at-a-global-service-provider-is-leading-digital-transformation-17927",
+        "https://businessworld.in/article/HR-Seen-As-A-Transactional-Function-Rather-Than-Transformational-Function-Kisha-Gupta-Global-Head-Of-Academic-Relations-Infosys/28-03-2018-144792/",
+        "https://businessworld.in/article/HR-Seen-As-A-Transactional-Function-Rather-Than-Transformational-Function-Kisha-Gupta-Global-Head-Of-Academic-Relations-Infosys/28-03-2018-144792/",
+        "https://www.cioreviewindia.com/magazines/mhealth-special-february-2018/",
+        "https://www.cioreviewindia.com/magazines/mhealth-special-february-2018/",
+        "https://www.whatech.com/market-research/it/432951-new-report-examines-the-intellectual-property-software-market-forecast-to-2025",
+        "https://www.whatech.com/market-research/it/432951-new-report-examines-the-intellectual-property-software-market-forecast-to-2025",
+        "https://www.whatech.com/market-research/consumer/431663-research-report-explores-the-legal-process-outsourcing-lpo-market-trends-to-2022",
+        "https://www.whatech.com/market-research/consumer/431663-research-report-explores-the-legal-process-outsourcing-lpo-market-trends-to-2022",
+        "https://www.machinelearningtribune.com/2018/01/22/intellectual-property-software-market-is-projected-to-reach-us-6758-4-mn-by-2025-transparency-market-research/",
+        "https://www.machinelearningtribune.com/2018/01/22/intellectual-property-software-market-is-projected-to-reach-us-6758-4-mn-by-2025-transparency-market-research/",
+        "https://cio.economictimes.indiatimes.com/cio-wall/sachin-jain/62535673",
+        "https://cio.economictimes.indiatimes.com/cio-wall/sachin-jain/62535673",
+        "https://businessworld.in/article/Best-Practices-For-Talent-Mobility/14-01-2018-137191/",
+        "https://businessworld.in/article/Best-Practices-For-Talent-Mobility/14-01-2018-137191/",
+        "https://feminisminindia.com/2017/12/01/women-check-before-joining-a-company/",
+        "https://feminisminindia.com/2017/12/01/women-check-before-joining-a-company/",
+        "https://www.hindustantimes.com/gurgaon/gurgaon-residents-sign-up-for-a-week-long-car-free-challenge/story-7vgexQwDaHzb7KySIKpswJ.html",
+        "https://www.hindustantimes.com/gurgaon/gurgaon-residents-sign-up-for-a-week-long-car-free-challenge/story-7vgexQwDaHzb7KySIKpswJ.html",
+        "https://www.openpr.com/news/793481/Data-Analytics-Outsourcing-Market-Size-Share-2017-2021.html",
+        "https://www.openpr.com/news/793481/Data-Analytics-Outsourcing-Market-Size-Share-2017-2021.html",
+        "https://www.finanznachrichten.de/nachrichten-2017-10/42078083-evalueserve-white-paper-gdpr-a-knowledge-gap-leading-to-non-compliance-008.htm",
+        "https://www.finanznachrichten.de/nachrichten-2017-10/42078083-evalueserve-white-paper-gdpr-a-knowledge-gap-leading-to-non-compliance-008.htm",
+        "https://www.cio.in/case-study/tape-hybrid-cloud-bright-skies-ahead-evalueserve",
+        "https://www.cio.in/case-study/tape-hybrid-cloud-bright-skies-ahead-evalueserve",
+        "https://www.analyticsinsight.net/best-analytics-companies-work-india/",
+        "https://www.analyticsinsight.net/best-analytics-companies-work-india/",
+        "https://www.reuters.com/brandfeatures/venture-capital/article?id=16097",
+        "https://www.reuters.com/brandfeatures/venture-capital/article?id=16097",
+        "https://www.tmcnet.com/usubmit/2017/09/04/8604702.htm",
+        "https://www.tmcnet.com/usubmit/2017/09/04/8604702.htm",
+        "https://www.finance-monthly.com/2017/07/the-minds-behind-mindmachine-an-interview-with-evalueserves-co-ceos-and-chief-strategist/",
+        "https://www.finance-monthly.com/2017/07/the-minds-behind-mindmachine-an-interview-with-evalueserves-co-ceos-and-chief-strategist/",
+        "https://www.businesswire.com/news/home/20170719005531/en/Global-Data-Analytics-Outsourcing-Market-Grow-CAGR",
+        "https://www.businesswire.com/news/home/20170719005531/en/Global-Data-Analytics-Outsourcing-Market-Grow-CAGR",
+        "https://www.siliconindiamagazine.com/viewpoint/cxoinsights/can-artificial-intelligence-be-the-answer-to-every-analytics-problem-nwid-8782.html",
+        "https://www.siliconindiamagazine.com/viewpoint/cxoinsights/can-artificial-intelligence-be-the-answer-to-every-analytics-problem-nwid-8782.html",
+        "https://everyday-mba.com/episode-109/",
+        "https://everyday-mba.com/episode-109/",
+        "https://www.thoughtleadersllc.com/2017/07/data-analytics-requires-leadership-by-mind-and-machine/",
+        "https://www.thoughtleadersllc.com/2017/07/data-analytics-requires-leadership-by-mind-and-machine/",
+        "https://www.whatech.com/market-research/industrial/323905-report-explores-the-global-data-analytics-outsourcing-market",
+        "https://www.whatech.com/market-research/industrial/323905-report-explores-the-global-data-analytics-outsourcing-market",
+        "https://www.businessinformationreview.org.uk/2017/06/14/man-vs-machine-vs-data/",
+        "https://www.businessinformationreview.org.uk/2017/06/14/man-vs-machine-vs-data/",
+        "https://customers.microsoft.com/en-us/story/evalueserve",
+        "https://customers.microsoft.com/en-us/story/evalueserve",
+        "https://predictiveroi.com/podcasts/marc-vollenweider/",
+        "https://predictiveroi.com/podcasts/marc-vollenweider/",
+        "https://www.linkedin.com/company/evalueserve",
+        "https://www.facebook.com/pages/Evalueserve/959196870761417",
+        "https://twitter.com/EvalueserveNews",
+        "https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICSI/machine-readable-transparency-in-coverage?reportingEntityType=Third%20Party%20Administrator_96732088&lock=true",
+        "https://x.com/intent/tweet?via=%username%&url=%url%&text=%prefix%%text%%suffix%&hashtags=%hashtags%",
+        "https://www.linkedin.com/sharing/share-offsite/?mini=true&url=%url%&title=%title%"
+      ],
+      "linker_detected": true,
+      "issues": [],
+      "score": 100
+    },
+    "consent_layer": {
+      "platform": "Cookiebot",
+      "gdpr_banner_present": true,
+      "cookie_policy_link": true,
+      "issues": [],
+      "score": 90
+    },
+    "datalayer_health": {
+      "detected": true,
+      "pushes_found": 0,
+      "variables": [],
+      "issues": [
+        "dataLayer detected but no dataLayer.push() calls found."
+      ],
+      "score": 55
+    },
+    "ecommerce_audit": {
+      "detected": true,
+      "platform": "Unknown",
+      "events": [],
+      "missing_events": [
+        "view_item",
+        "add_to_cart",
+        "view_cart",
+        "begin_checkout",
+        "add_shipping_info",
+        "add_payment_info",
+        "purchase"
+      ],
+      "issues": [
+        "Missing GA4 ecommerce events: view_item, add_to_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase"
+      ],
+      "score": 0,
+      "applicability": "Applicable - Ecommerce journey detected"
+    },
+    "form_tracking": {
+      "forms_found": 2,
+      "forms_with_tracking": 0,
+      "tracked_events": [],
+      "issues": [
+        "2 form(s) detected but no form_submit/generate_lead event found."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Gap"
+    },
+    "scroll_tracking": {
+      "detected": true,
+      "thresholds": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "90",
+        "100"
+      ],
+      "issues": [],
+      "score": 80,
+      "applicability": "Applicable - Scroll tracking signal detected"
+    },
+    "video_tracking": {
+      "players_found": [],
+      "tracking_detected": false,
+      "events": [],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No video players found"
+    },
+    "audio_tracking": {
+      "players_found": [],
+      "tracking_detected": true,
+      "events": [
+        "listen",
+        "Listen"
+      ],
+      "issues": [],
+      "score": "N/A",
+      "applicability": "Not applicable - No audio players found"
+    },
+    "nav_tracking": {
+      "nav_elements": 4,
+      "tracking_detected": false,
+      "events": [],
+      "issues": [
+        "Navigation elements found but no navigation click tracking detected."
+      ],
+      "score": 0,
+      "applicability": "Applicable - Navigation elements detected"
+    },
+    "localisation": {
+      "lang_detected": "en-US",
+      "hreflang_tags": [],
+      "currency_symbols": [
+        "$"
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "blocked_tags": [],
+    "duplicate_tags": [],
+    "network_summary": {
+      "total_requests": 0,
+      "total_responses": 0,
+      "console_errors": []
+    },
+    "conditional_firing": {
+      "patterns": [
+        "Consent-related gating or Consent Mode signal detected."
+      ],
+      "issues": [],
+      "score": 80
+    },
+    "custom_events": [],
+    "performance_impact": {
+      "load_time_ms": 4650,
+      "script_count": 33,
+      "tag_script_count": 0,
+      "issues": [],
+      "score": 80
+    },
+    "recommendations": [
+      "HIGH: Add form_submit or generate_lead tracking.",
+      "HIGH: Complete GA4 ecommerce funnel event implementation.",
+      "LOW: Add navigation/menu click tracking for UX analysis."
+    ]
+  }
+]
